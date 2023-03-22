@@ -38,18 +38,19 @@
     <p class="first">Есть множество тегов, знать которые не помешает.<br>
         Вот они:</p>
       <div class="shadow-lg p-3 mb-5 bg-body-tertiary rounded">
-        <div class="button">
+        
           <div class="btn-group" role="group" aria-label="Basic outlined example">
-            <button type="button" class="btn btn-outline-primary">dl dt dd</button>
-            <button type="button" class="btn btn-outline-primary">pre</button>
-            <button type="button" class="btn btn-outline-primary">tt code</button>
-            <button type="button" class="btn btn-outline-primary">kbd</button>
-            <button type="button" class="btn btn-outline-primary">var</button>
-            <button type="button" class="btn btn-outline-primary">sub sup</button>
-            <button type="button" class="btn btn-outline-primary">blockquote q</button>
-            <button type="button" class="btn btn-outline-primary">ins del</button>
-            <button type="button" class="btn btn-outline-primary">address</button>
-            <button type="button" class="btn btn-outline-primary">nobr wbr</button>
+            
+            <button type="button" class="btn btn-outline-primary"><a href="#dl">dl dt dd</a></button>
+            <button type="button" class="btn btn-outline-primary"><a href="#pre">pre</a></button>
+            <button type="button" class="btn btn-outline-primary"><a href="#tt">tt code</a></button>
+            <button type="button" class="btn btn-outline-primary"><a href="#kbd">kbd</a></button>
+            <button type="button" class="btn btn-outline-primary"><a href="#var">var</a></button>
+            <button type="button" class="btn btn-outline-primary"><a href="#sub">sub sup</a></button>
+            <button type="button" class="btn btn-outline-primary"><a href="#q">blockquote q</a></button>
+            <button type="button" class="btn btn-outline-primary"><a href="#ins">ins del</a></button>
+            <button type="button" class="btn btn-outline-primary"><a href="#address">address</a></button>
+            <button type="button" class="btn btn-outline-primary"><a href="#nobr">nobr wbr</a></button>
           </div>
         </div>
       </div>  
@@ -82,7 +83,7 @@
   </div>
 
   <div>
-    <h3>&#60;pre&#62;</h3>
+    <h3><a id="pre">&#60;pre&#62;</a></h3>
     <p>Элемент HTML &#60;pre&#62;  представляет собой предварительно отформатированный текст, который должен быть представлен точно так, как написано в HTML-файле.<br>
     Текст обычно отображается с использованием непропорционального ("monospace") шрифта. Пробелы внутри этого элемента отображаются как записанные.</p>
     <div class="shadow-lg p-3 mb-5 bg-body-tertiary rounded">
@@ -130,7 +131,7 @@
   </div>
 
   <div>
-    <h3>&#60;tt&#62; &#60;code&#62;</h3>
+    <h3><a id="tt">&#60;tt&#62; &#60;code&#62;</a></h3>
     <p>Тег  &#60;tt&#62;  отображает текст моноширинным шрифтом, так называемый, телетайпный текст.<br>
        Этот тег относится к группе тегов физического форматирования.<br>
        Тег  &#60;tt&#62;  не поддерживается в HTML5.</p>
@@ -171,7 +172,7 @@
   </div>
 
   <div>
-    <h3> &#60;kbd&#62;</h3>
+    <h3><a id="kbd">&#60;kbd&#62;</a></h3>
     <p>Тег &#60;kbd&#62; используется для обозначения текста, который набирается на клавиатуре или для названия клавиш.<br>
      Браузеры обычно помечают текст в контейнере &#60;kbd&#62; моноширинным шрифтом.<br>
     Пример кода:</p>
@@ -194,7 +195,7 @@
          <kbd>&lt;Ctrl&gt;+&lt;Delete&gt;</kbd>.</p>
     </div>
   <div> 
-    <h3>&#60;var&#62;</h3>
+    <h3><a id="var">&#60;var&#62;</a></h3>
     <p>Тег &#60;var&#62; используется для выделения переменных компьютерных программ. Браузеры обычно помечают текст в контейнере &#60;var&#62; курсивным начертанием.
       Пример:
       <div class="shadow-lg p-3 mb-5 bg-body-tertiary rounded">
@@ -209,27 +210,29 @@
   </div>
   
   <div>
-    <h3>sub sup</h3>
+    <h3><a id="sub">sub sup</a></h3>
     <p>Тег &#60;sup&#62; (сокращение от «superscript») отображает текст в виде верхнего индекса, а тег &#60;sub&#62; (сокращение от «subscript») в виде нижнего индекса.<br>
     Пример:</p>
+
     <div class="shadow-lg p-3 mb-5 bg-body-tertiary rounded">
       <p>20м&#60;sup&#62;2&#60;/sup&#62;
-      H&#60;sub&#62;2&#60;/sub&#62;O
-      X&#60;sup&#62;3&#60;/sup&#62;+X&#60;sup&#62;2&#60;/sup&#62;=1</p>
+        H&#60;sub&#62;2&#60;/sub&#62;O
+        X&#60;sup&#62;3&#60;/sup&#62;+X&#60;sup&#62;2&#60;/sup&#62;=1</p>
 
       <p>20м<sup>2</sup>
-      H<sub>2</sub>O
-      X<sup>3</sup>+X<sup>2</sup>=1</p>
+        H<sub>2</sub>O
+        X<sup>3</sup>+X<sup>2</sup>=1</p>
     </div>
 
   </div>
 
   <div>
-    <h3>&#60;blockquote&#62; &#60;q&#62;</h3>
+    <h3><a id="q">&#60;blockquote&#62; &#60;q&#62;</a></h3>
     <p>Тег &#60;blockquote&#62; предназначен для выделения длинных цитат внутри документа.<br>
       Текст, обозначенный этим тегом, традиционно отображается как выровненный блок с отступами слева и справа (примерно по 40 пикселов),<br>
       а также с отбивкой сверху и снизу.<br>
       Пример:</p>
+
       <div class="shadow-lg p-3 mb-5 bg-body-tertiary rounded">
         <p>&#60;blockquote&#62;<br>
         Lorem ipsum dolor sit amet, consectetuer adipiscing elit, <br>
@@ -245,6 +248,7 @@
         suscipit lobortis nisl ut aliquip ex ea commodo consequat.
         </blockquote>
       </div>
+
   </div>
 
   <div>
@@ -259,7 +263,7 @@
   </div>
 
   <div> 
-    <h3>&#60;ins&#62; &#60;del&#62;</h3>
+    <h3><a id="ins">&#60;ins&#62; &#60;del&#62;</a></h3>
     <p>Списки дел на то и нужны, чтобы вычёркивать выполненные дела и иногда добавлять новые. У вас также назрела необходимость обновить список дел, но так, чтобы было видно, какие дела завершены, а какие добавлены. Как сделать разметку такой истории изменений?<br>
         Как раз для описания изменений предназначены теги &#60;del&#62; (сокращение от «delete») и &#60;ins&#62; (сокращение от «insert»).<br>
         Тег &#60;del&#62; выделяет текст, который был удалён в новой версии документа. В браузере этот текст перечёркивается.<br>
@@ -292,7 +296,7 @@
   </div>
 
   <div>
-    <h3>&#60;address&#62;</h3>
+    <h3><a id="address">&#60;address&#62;</a></h3>
     <p>Тег &#60;address&#62; предназначен для хранения информации об авторе и может включать в себя любые элементы HTML вроде ссылок, текста, выделений и т.д.<br>
        Планируется, что поисковые системы будут анализировать содержимое этого тега для сбора информации об авторах сайтов.<br>
        По умолчанию текст внутри контейнера &#60;address&#62; отображается курсивным начертанием. Если эта особенность не требуется, используйте стили для изменения начертания шрифта.</p>
@@ -313,7 +317,7 @@
     </div>
 
     <div>
-      <h3>&#60;nobr&#62; &#60;wbr&#62;</h3>
+      <h3><a id="nobr">&#60;nobr&#62; &#60;wbr&#62;</a></h3>
       <p>Тег &#60;nobr&#62; уведомляет браузер отображать текст без переносов.<br>
          Если этого тега в коде документа нет, а также имеются переводы строки, они игнорируются и текст выравнивается по левому краю окна браузера<br>
          или родительского элемента. При этом браузер переводы строк расставляет автоматически, чтобы текст полностью поместился по ширине окна.<br>
