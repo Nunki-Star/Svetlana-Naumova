@@ -3,10 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <title>SKOB</title>
+    <style>
+        .parent{
+            display:flex;
+            flex-direction: column;
+        }
+        .top{
+            margin: -4px
+        }   
+        .middle{
+            display:flex;
+            flex-direction:row;
+            transform: translate(-3px, 0);
+        }
+        .bottom{
+            margin:-6px
+        }
+    </style>
 </head>
 <body>
-    <p>не знаю правильно ли использовать плагин tinyPNG в самой среде разработки?)-получилось 57кб..</p>
-    <img src="skobki2.png">
+    <div class="parent"><p>Connected by using flex-boxes</p>
+        <div class="top"><img src="top_1.jpeg" alt="top" title="top"></div>
+        <div class="middle">
+            <div><img src="left_side.jpeg" atl="left" title="left"></div>
+            <div><img src="left.gif" alt="left_pin" title="left_pin"></div>
+            <div><img src="middle_1.jpeg" alt="middle" title="middle"></div>
+            <div><img src="right.gif" alt="right_pin" title="right_pin"></div>
+            <div><img src="right_side.jpeg" alt="right" title="right"></div>
+        </div>
+        <div class="bottom"><img src="bottom_1.jpeg" alt="bottom" title="bottom"></div>
+    </div>
+   
 
 </body>
 </html>
