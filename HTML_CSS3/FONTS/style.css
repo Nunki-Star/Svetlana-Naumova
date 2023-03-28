@@ -1,0 +1,39 @@
+body{
+    animation:bgAnim 5s infinite alternate linear;
+    width:1000px;
+    
+}
+@keyframes bgAnim{
+    0%{
+        background-color: #ee55ac;
+    }
+    25%{
+        background-color: pink;
+    }
+    50%{
+        background-color: rgb(240, 155, 249);
+    }
+    75%{
+        background-color: #c6a6fa;
+    }
+    100%{
+        background-color: #eeaaee;
+    }
+}
+h3{
+    align-self: center;
+    font-size: 30px;
+    font-weight:light
+}
+p{  
+   font-family: 'Comfortaa', cursive;
+   font-size: 20px;
+   text-indent: 20px;
+}
+.main{
+    width: 100%;
+    height: 100%;
+}
+
+
+
