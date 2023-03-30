@@ -1,0 +1,28 @@
+body{
+    animation:bgAnim 5s infinite alternate linear;
+    width:1000px;
+    
+}
+@keyframes bgAnim{
+    0%{
+        background-color: #66CCFF;
+    }
+    25%{
+        background-color: #6699FF;
+    }
+    50%{
+        background-color: #FF99CC;
+    }
+    75%{
+        background-color: #FFFFCC;
+    }
+    100%{
+        background-color: #99FFCC;
+    }
+}
+
+.main{
+    width: 1000px;
+    font-size: 30px;
+    margin:50px
+}
