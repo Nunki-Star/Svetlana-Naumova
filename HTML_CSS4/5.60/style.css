@@ -1,15 +1,18 @@
 .name{
     font-size: 30px;
     font-weight: bold;
+    margin-bottom: 6px;
 }
 
 .bday{
-    color:green
+    color:green;
+    margin-bottom: -5px
 }
 
 .champion{
     color: red;
-    font-weight: bold
+    font-weight: bold;
+    margin-bottom: 20pxpx;
 }
 
 .info{
