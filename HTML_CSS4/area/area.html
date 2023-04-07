@@ -16,8 +16,9 @@
     <div class="col-4">
       <div id="simple-list-example" class="d-flex flex-column gap-2 simple-list-example-scrollspy text-center">
         <a class="p-1 rounded" href="#simple-list-item-1">Info</a>
-        <a class="p-1 rounded" href="#simple-list-item-2">Code example</a>
-        <a class="p-1 rounded" href="#simple-list-item-3">Picture example</a>
+        <a class="p-1 rounded" href="#simple-list-item-2">Shape: poly, circle, rect, default</a>
+        <a class="p-1 rounded" href="#simple-list-item-3">Code example</a>
+        <a class="p-1 rounded" href="#simple-list-item-4">Picture example</a>
       </div>
     </div>
 
@@ -32,7 +33,18 @@
           который связывает координаты областей с изображением. Несколько областей могут перекрывать друг друга, сверху будет та, которая в 
           коде HTML располагается выше</p>
 
-        <h4 id="simple-list-item-2">Code example</h4>
+        <h4 id="simple-list-item-2">Shape: poly, circle, rect, default</h4>
+        <p>Определяет форму «горячей области», координаты которой задаются с помощью атрибута</p>
+        <ul>
+          <li>CIRCLE: Область в виде окружности.</li>
+          <li>POLY: Область в виде полигона (многоугольника).</li>
+          <li>RECT: Прямоугольная область.</li>
+          <li>DEFAULT:Указывает всю область.</li>
+        </ul>
+
+
+
+        <h4 id="simple-list-item-3">Code example</h4>
         <pre>         <u>Код программы</u>
         &#60;img src="figures.png" alt="figures" usemap="#Navigation"&#62;
         &#60;map name="Navigation"&#62;
@@ -44,7 +56,7 @@
         </pre>
 
 
-        <h4 id="simple-list-item-3">Picture example</h4>
+        <h4 id="simple-list-item-4">Picture example</h4>
         <p><img src="figures.png" alt="figures" usemap="#Navigation">
           <map name="Navigation">
             <area shape="rect" coords="12, 27, 214 229" href="https://ru.wikipedia.org/wiki/Квадрат" alt="квадрат" title="квадрат">
