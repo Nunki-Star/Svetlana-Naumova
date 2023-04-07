@@ -32,6 +32,52 @@
           устанавливает адрес документа, на который следует сделать ссылку. &#60;area&#62; всегда располагается в контейнере &#60;map&#62;, 
           который связывает координаты областей с изображением. Несколько областей могут перекрывать друг друга, сверху будет та, которая в 
           коде HTML располагается выше</p>
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th scope="col">АТРИБУТ</th>
+                <th scope="col">ОПИСАНИЕ</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">alt</th>
+                <td>Определяет альтернативный текст, если элемент не удается отобразить</td>
+              </tr>
+
+              <tr>
+                <th scope="row">coords</th>
+                <td>Определяет координаты ссылки в карте изображений</td>
+              </tr>
+
+              <tr>
+                <th scope="row">download</th>
+                <td>Определяет, что документ, на который указывает ссылка, будет загружаться</td>
+              </tr>
+
+              <tr>
+                <th scope="row">href</th>
+                <td>Определяет URL, на которую ведет ссылка активной области изображения</td>
+              </tr>
+
+              <tr>
+                <th scope="row">media</th>
+                <td>Определяет устройство вывода, для которого оптимизирован документ, на который ведет ссылка области карты-изображения</td>
+              </tr>
+
+              <tr>
+                <th scope="row">nohref</th>
+                <td>Определяет, что у ссылочного региона нет ассоциированной с ним ссылки</td>
+              </tr>
+
+              <tr>
+                <th scope="row">shape</th>
+                <td>ООпределяет форму ссылки в карте изображений</td>
+              </tr>
+
+            </tbody>
+          
+          </table> 
 
         <h4 id="simple-list-item-2">Shape: poly, circle, rect, default</h4>
         <p>Определяет форму «горячей области», координаты которой задаются с помощью атрибута</p>
@@ -59,10 +105,10 @@
         <h4 id="simple-list-item-4">Picture example</h4>
         <p><img src="figures.png" alt="figures" usemap="#Navigation">
           <map name="Navigation">
-            <area shape="rect" coords="12, 27, 214 229" href="https://ru.wikipedia.org/wiki/Квадрат" alt="квадрат" title="квадрат">
-            <area shape="circle" coords="398, 129, 106" href="https://ru.wikipedia.org/wiki/Круг" alt="круг" title="круг">
-            <area shape="poly" coords="65, 315, 161, 315, 211, 397, 163, 485, 63, 483, 15, 407" href="https://ru.wikipedia.org/wiki/Шестиугольник" alt="шестиугольник" title="шестиугольник">
-            <area shape="poly" coords="401, 293, 493, 484, 307, 485" href="https://ru.wikipedia.org/wiki/Треугольник" alt="треугольник" title="треугольник">
+            <area shape="rect" coords="12, 27, 214 229" href="https://ru.wikipedia.org/wiki/Квадрат" alt="квадрат" title="квадрат" target="_blank">
+            <area shape="circle" coords="398, 129, 106" href="https://ru.wikipedia.org/wiki/Круг" alt="круг" title="круг" target="_blank">
+            <area shape="poly" coords="65, 315, 161, 315, 211, 397, 163, 485, 63, 483, 15, 407" href="https://ru.wikipedia.org/wiki/Шестиугольник" alt="шестиугольник" title="шестиугольник" target="_blank">
+            <area shape="poly" coords="401, 293, 493, 484, 307, 485" href="https://ru.wikipedia.org/wiki/Треугольник" alt="треугольник" title="треугольник" target="_blank">
           </map></p>
       </div>
     </div>
