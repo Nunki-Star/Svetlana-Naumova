@@ -4,26 +4,50 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.7.5/dist/css/foundation.min.css" crossorigin="anonymous">
     <title>Area</title>
+    <link rel="stylesheet" href="Manrope/stylesheet.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div>
+
+    <div class="main">
+      <p>Тег &#60;area&#62; (от англ. area - область) определяет активные области изображения, которые являются ссылками. 
+         Рисунок с привязанными к нему активными областями называется в совокупности картой-изображением. 
+         Такая карта по внешнему виду ничем не отличается от обычного изображения, но при этом оно может быть разбито 
+         на невидимые зоны разной формы, где каждая из областей служит ссылкой. Элемент &#60;area&#62; задаёт форму области, её размеры, 
+         устанавливает адрес документа, на который следует сделать ссылку. &#60;area&#62; всегда располагается в контейнере &#60;map&#62;, 
+         который связывает координаты областей с изображением. Несколько областей могут перекрывать друг друга, сверху будет та, которая в 
+         коде HTML располагается выше.</p>
+    </div>  
+
     <div>
 
-
       <div class="pic">
-          <img src="figures.png" alt="figures" usemap="#Navigation">
-          <map name="Navigation">
-              <area shape="rect" coords="12, 27, 214 229" href="https://ru.wikipedia.org/wiki/Квадрат" alt="квадрат" title="квадрат">
-              <area shape="circle" coords="398, 129, 106" href="https://ru.wikipedia.org/wiki/Круг" alt="круг" title="круг">
-              <area shape="poly" coords="65, 315, 161, 315, 211, 397, 163, 485, 63, 483, 15, 407" href="https://ru.wikipedia.org/wiki/Шестиугольник" alt="шестиугольник" title="шестиугольник">
-              <area shape="poly" coords="401, 293, 493, 484, 307, 485" href="https://ru.wikipedia.org/wiki/Треугольник" alt="треугольник" title="треугольник">
-          </map>
+        <img src="figures.png" alt="figures" usemap="#Navigation">
+        <map name="Navigation">
+          <area shape="rect" coords="12, 27, 214 229" href="https://ru.wikipedia.org/wiki/Квадрат" alt="квадрат" title="квадрат">
+          <area shape="circle" coords="398, 129, 106" href="https://ru.wikipedia.org/wiki/Круг" alt="круг" title="круг">
+          <area shape="poly" coords="65, 315, 161, 315, 211, 397, 163, 485, 63, 483, 15, 407" href="https://ru.wikipedia.org/wiki/Шестиугольник" alt="шестиугольник" title="шестиугольник">
+          <area shape="poly" coords="401, 293, 493, 484, 307, 485" href="https://ru.wikipedia.org/wiki/Треугольник" alt="треугольник" title="треугольник">
+        </map>
       </div>
-      <div class="main">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est adipisci molestias placeat porro eligendi nisi excepturi atque molestiae. Ipsa itaque aliquam, doloribus quasi facere dolorem aspernatur minima repudiandae et. Perspiciatis?</p>
+
+      <div>
+      
+        <pre>             <u>Код программы</u>
+          &#60;img src="figures.png" alt="figures" usemap="#Navigation"&#62;
+          &#60;map name="Navigation"&#62;
+              &#60;area shape="rect" coords="12, 27, 214 229" href="https://ru.wikipedia.org/wiki/Квадрат" alt="квадрат" title="квадрат"&#62;
+              &#60;area shape="circle" coords="398, 129, 106" href="https://ru.wikipedia.org/wiki/Круг" alt="круг" title="круг"&#62;
+              &#60;area shape="poly" coords="65, 315, 161, 315, 211, 397, 163, 485, 63, 483, 15, 407" href="https://ru.wikipedia.org/wiki/Шестиугольник" alt="шестиугольник" title="шестиугольник"&#62;
+              &#60;area shape="poly" coords="401, 293, 493, 484, 307, 485" href="https://ru.wikipedia.org/wiki/Треугольник" alt="треугольник" title="треугольник"&#60;
+          &#60;/map&#62;
+        </pre>
+        </p>
       </div>
-    </div>   
+
+    </div>
+
   </div> 
       <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.7.5/dist/js/foundation.min.js" crossorigin="anonymous"></script>
   
