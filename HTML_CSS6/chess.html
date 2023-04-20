@@ -15,14 +15,23 @@
   }
    td:first-child, td:last-child{
     background-color: springgreen;
+    
     }
-   table+tr{
-    background-color: springgreen;}
+   tr:first-child, tr:last-child{
+    background-color:springgreen;
+    
+    }
+    table.CHESS td:first-child, table.CHESS td:last-child{
+        width:20px;
+        
+    }
+    
+    
 </style>
 
 <table class='CHESS'>
-<tr><!--row 1-->
-    <td>1</td>
+<tr><!--row 1, first to his parent-->
+    <td>1</td><!--first accordingly to his parent-->
     <td>2</td>
     <td>3</td>
     <td>4</td>
@@ -31,7 +40,7 @@
     <td>7</td>
     <td>8</td>
     <td>9</td>
-    <td>10</td>
+    <td>10</td><!--last to his parent-->
 </tr>
 
 <tr><!--row 2-->
@@ -130,7 +139,7 @@
     <td>9</td>
     <td>10</td>
 </tr>
-<tr><!--row 10-->
+<tr><!--row 10, last to his parent-->
     <td>1</td>
     <td>2</td>
     <td>3</td>
