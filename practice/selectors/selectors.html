@@ -5,9 +5,93 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        p{
+            color:yellowgreen
+        }
+        [align]{
+            color:blue;
+        }
+        [align=center]{
+            background-color: aquamarine;
+        }
+        [href^=index]{
+            color:green
+        }
+        [href$=Успех]{
+            background-color: bisque;
+        }
+        [href*=practice]{
+            background-color: yellowgreen;
+        }
+        p.btn{
+            background-color: pink;
+        }
+        p.btn-large{
+            background-color: slateblue;
+        }
+
+        div strong{
+            font-size: 100px;
+        }
+        div > strong{
+            color:orangered
+        }
+
+        h3 ~ p{
+            background-color: yellow;
+        }
+
+        h4 + p{
+            background-color: mediumspringgreen;
+        }
+        
+        h5 + p{
+            background-color: mediumaquamarine;
+        }
+    </style>
 </head>
 <body>
     <p align="right">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, veritatis illo. Voluptates est eligendi magni nihil sequi aspernatur maiores sapiente molestias pariatur. Doloribus rerum adipisci modi, consequatur quam exercitationem eum.</p>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium veniam nam mollitia molestias dolorum quam, in quia, veritatis corrupti aperiam inventore doloribus, unde quis omnis praesentium vitae cum optio. Quod.</p>
+    <p align="center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium veniam nam mollitia molestias dolorum quam, in quia, veritatis corrupti aperiam inventore doloribus, unde quis omnis praesentium vitae cum optio. Quod.</p>
+    <a href="https://ru.wikipedia.org/wiki/Успех">sucsess</a>
+    <a href="index.html">index</a>
+    <a href="../practice/practice.html">4.10</a>
+
+
+    <p class="btn-large">button</p>
+    <p class="btn">button</p>
+    <p class="btn">button</p>
+    <p class="btn">button</p>
+
+    <div>
+        <strong>
+            hello
+        </strong>
+        <div>
+            <p>
+                <span>
+                    <strong>
+                        test
+                    </strong>
+                </span>
+            </p>
+        </div>
+    </div>
+
+
+    <h3>test</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam consectetur, ab libero ad illum laboriosam adipisci aperiam id distinctio atque hic corporis ut odit. Aut nobis non eos totam iure.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet aspernatur illum itaque id ipsa illo odio, accusantium consectetur, sit error doloremque vel iusto magnam eligendi. Error illo hic asperiores sunt!</p>
+
+    <h4>test</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam consectetur, ab libero ad illum laboriosam adipisci aperiam id distinctio atque hic corporis ut odit. Aut nobis non eos totam iure.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet aspernatur illum itaque id ipsa illo odio, accusantium consectetur, sit error doloremque vel iusto magnam eligendi. Error illo hic asperiores sunt!</p>
+
+    <h5>test</h5>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam consectetur, ab libero ad illum laboriosam adipisci aperiam id distinctio atque hic corporis ut odit. Aut nobis non eos totam iure.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet aspernatur illum itaque id ipsa illo odio, accusantium consectetur, sit error doloremque vel iusto magnam eligendi. Error illo hic asperiores sunt!</p>
+    
+
 </body>
 </html>
