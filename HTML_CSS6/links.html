@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        [href^="https"]{
+            color:green;
+            font-size: large;
+            padding:20px /*dannyi metod perekrashivaet vse href*/
+        }
+        a:hover{
+            color:red;
+        }
+        table td{
+            border-right:solid red;
+        }
+        
+        div>a{
+            float:left;
+            border-right:solid blue;
+            border-width: 3px;
+            ;
+        }   
+        hr{
+            clear:both
+        }
+        p>[href$=CSS]{
+            float:left;
+            color:blue;
+        }
+        p a:hover{
+            color:green
+        }
+        p a::after{
+            content:'|';
+            text-decoration: none;/*not working*/
+            color:red;
+            font-size:50px;
+            padding:15px;
+        }
+    </style>
+</head>
+<body>
+    <h3>first example</h3>
+    <div>
+        <table>
+            <tr>
+                <td><a href="https://en.wikipedia.org/wiki/CSS">first link</a></td>
+                <td><a href="https://en.wikipedia.org/wiki/CSS">second link</a></td>
+                <td><a href="https://en.wikipedia.org/wiki/CSS">third link</a></td>
+                <td><a href="https://en.wikipedia.org/wiki/CSS">fourth link</a></td>
+            </tr>
+        </table>
+    </div>
+    <hr>
+    <h3>second example</h3>
+    <div>
+        <div><a href="https://en.wikipedia.org/wiki/CSS">first link</a></div>
+        <div><a href="https://en.wikipedia.org/wiki/CSS">second link</a></div>
+        <div><a href="https://en.wikipedia.org/wiki/CSS">third link</a></div>
+        <div><a href="https://en.wikipedia.org/wiki/CSS">fourth link</a></div>
+    </div>
+    <hr>
+    <h3>third example</h3>
+    <div>
+        <p><a href="https://en.wikipedia.org/wiki/CSS">first link</a></p>
+        <p><a href="https://en.wikipedia.org/wiki/CSS">second link</a></p>
+        <p><a href="https://en.wikipedia.org/wiki/CSS">third link</a></p>
+        <p><a href="https://en.wikipedia.org/wiki/CSS">fourth link</a></p>
+    </div>
+    <hr>
+
+</body>
+</html>
