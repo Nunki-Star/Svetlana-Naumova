@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        [href^="https"]{  /*назначает абсолютно все ссылки одним цветом*/
+            color:green;
+            font-size: 20px;
+            padding:20px 
+        }
+        a:hover{
+            color:red;
+        }
+        table td{
+            border-right:solid red; /*method one*/
+        }
+
+        hr{
+            clear:both
+        }
+
+        p>[href$=CSS]{
+            float:left;
+            color:GREEN;
+        }
+
+        p a:hover{
+            color:red
+        }
+        p a[href$="CSS"]::after{ /*method three, подчеркивает границу как ссылку*/ 
+            content:'|';
+            text-decoration: none;/*not working*/
+            color:red;
+            font-size:50px;
+            padding:15px;
+            
+        }
+        [href$="HTML"]::after{ /*method two*/
+            content:url(border.png)
+        }
+        
+        li{ color:green;
+            list-style-type: none;
+            float:left;
+            margin:10px;
+            font-size: 20px;
+            
+            
+        }
+        li a{
+            color:green; /*method four*/
+        }
+        li a:hover{
+            color:red
+        }   
+         
+        h3:last-of-type~a{ /*method five*/
+            
+            float:left;
+            border-right:solid red;
+            border-width: 3px;
+        }
+        
+    </style>
+</head>
+<body>
+    <h3>first method "table"</h3>
+    <div>
+        <table>
+            <tr>
+                <td><a href="https://en.wikipedia.org/wiki/CSS">first link</a></td> 
+                <td><a href="https://en.wikipedia.org/wiki/CSS">second link</a></td>
+                <td><a href="https://en.wikipedia.org/wiki/CSS">third link</a></td>
+                <td><a href="https://en.wikipedia.org/wiki/CSS">fourth link</a></td>
+            </tr>
+        </table>
+    </div>
+    <hr>
+    <h3>second method;::after + img added</h3>
+    <div>
+        
+            <a href="https://ru.wikipedia.org/wiki/HTML">first link</a>
+            <a href="https://ru.wikipedia.org/wiki/HTML">second link</a>
+            <a href="https://ru.wikipedia.org/wiki/HTML">third link</a>
+            <a href="https://ru.wikipedia.org/wiki/HTML">fourth link</a>
+    </div>
+    <hr>
+    <h3>third method; ::after + content '|' </h3>
+    <div>
+        <p><a href="https://en.wikipedia.org/wiki/CSS">first link</a></p>
+        <p><a href="https://en.wikipedia.org/wiki/CSS">second link</a></p>
+        <p><a href="https://en.wikipedia.org/wiki/CSS">third link</a></p>
+        <p><a href="https://en.wikipedia.org/wiki/CSS">fourth link</a></p>
+    </div>
+    <hr>
+    <h3>fourth method; ul li + img</h3>
+        <ul>
+            <li><a href="">first link</a><img src="border.png"></li>
+            <li><a href="">first link</a><img src="border.png"></li>
+            <li><a href="">first link</a><img src="border.png"></li>
+            <li><a href="">first link</a><img src="border.png"></li>
+        </ul>
+    <hr>
+    <h3>fifth method; h3:last-of type + border</h3>
+    
+    <a href="https://en.wikipedia.org/wiki/CSS">first link</a></div>
+    <a href="https://en.wikipedia.org/wiki/CSS">second link</a></div>
+    <a href="https://en.wikipedia.org/wiki/CSS">third link</a></div>
+    <a href="https://en.wikipedia.org/wiki/CSS">fourth link</a></div>
+    
+
+</body>
+</html>
