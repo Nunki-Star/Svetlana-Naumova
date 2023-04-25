@@ -1,0 +1,34 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+h3{
+    color:blue; 
+    font: 20px 'Onest';
+    padding-top: 10px;
+}
+
+.container{
+    background:url(pics/bgyellow.png); 
+    margin-top:-10px; 
+    width:755px
+}
+
+.container2{
+    width:25%; 
+    float:left
+}
+
+h4{
+    font-family:'Onest'; 
+    text-align: center; 
+    padding-top:20px
+}
+.header{
+    background-color:#add8e6; 
+    height:51px;
+    text-align: center;
+    width:755px
+}
