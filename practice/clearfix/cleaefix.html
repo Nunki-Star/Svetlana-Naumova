@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>clearfix</title>
+</head>
+<style>
+    .menu{
+        width:200px;
+        height:300px;
+        background-color: lightgreen;
+        float:left
+        }
+        .banner{
+        width:200px;
+        height:300px;
+        background-color: lavenderblush;
+        float:right
+        }
+        .content{
+            background-color: lightpink;
+        }
+        .container{
+            background-color: lightskyblue;
+            
+        }
+        .clearfix:after{
+            content:"";
+            height:5px;
+            display: block;
+            background-color: aquamarine;
+            clear:both
+           }
+</style>
+<body>
+    <div class="container clearfix">
+        <div class="menu">menu</div>
+        <div class="banner">banner</div>
+        <div class="content">content</div>
+    </div>
+</body>
+</html>
