@@ -10,13 +10,13 @@ h3{
     padding-top: 10px;
 }
 
-.container{
+ div:nth-child(2){
     background:url(pics/bgyellow.png); 
     margin-top:-10px; 
     width:755px
 }
 
-.container2{
+ div.container{
     width:25%; 
     float:left
 }
@@ -27,6 +27,19 @@ h4{
     padding-top:20px
 }
 .header{
+    background-color:#add8e6; 
+    height:51px;
+    text-align: center;
+    width:755px
+}
+.football{
+    text-align: center;
+    margin: 10px 10px 10px 10px;
+    padding-top: 10px;
+    font: 20px 'hero'
+}
+
+.footer{
     background-color:#add8e6; 
     height:51px;
     text-align: center;
