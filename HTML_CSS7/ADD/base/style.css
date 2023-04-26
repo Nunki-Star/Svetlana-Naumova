@@ -3,7 +3,12 @@
     padding:0;
     box-sizing: border-box;
 }
-
+.header, .footer{
+    background-color:#add8e6; 
+    height:51px;
+    text-align: center;
+    width:755px
+}
 h3{
     color:blue; 
     font: 20px 'Onest';
@@ -40,12 +45,7 @@ h4{
     text-align: center; 
     padding-top:20px
 }
-.header{
-    background-color:#add8e6; 
-    height:51px;
-    text-align: center;
-    width:755px
-}
+
 div.bg > h3{
     text-align: center;
     margin: 10px 10px 10px 10px;
@@ -68,9 +68,3 @@ div.bg > p:last-of-type{
     font: 15px 'Arial'
 }
 
-.footer{
-    background-color:#add8e6; 
-    height:51px;
-    text-align: center;
-    width:755px
-}

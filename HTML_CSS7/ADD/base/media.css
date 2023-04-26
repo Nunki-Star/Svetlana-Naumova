@@ -1,0 +1,128 @@
+@media all and (max-width:768px){
+    .header, .footer{
+        width: 570px;
+        background-color:#add8e6; 
+        height:51px;
+        text-align: center;
+        
+    }
+
+    div .links{
+        width:15%; 
+        float:left
+        }
+
+    div:nth-child(2){
+        background:url(pics/bgyellow.png); 
+        margin-top:-10px; 
+        width:570px;
+        margin-left:5px
+        }
+
+    ul{ 
+        padding-left:25px
+        
+        }
+    div .right_container{
+        margin-left:25%; 
+        background:url(pics/white.png); 
+        width:75%
+    }
+
+    h4{
+        font-family:'Onest'; 
+        text-align: center; 
+        padding-top:10px;
+        padding-left:15px
+    }
+    
+}
+
+@media all and (max-width:580px){
+    .header, .footer{
+        width: 425px;
+        background-color:#add8e6; 
+        height:40px;
+        text-align: center;
+        margin-left: 2px;
+        margin-bottom:10px
+    }
+
+    h3{
+        color:blue; 
+        font: 20px 'Onest';
+        padding-top: 10px;
+    }
+    
+    div .links{
+        width:425px;
+        clear:both;
+        
+        
+        
+    }
+    div:nth-child(2){
+        background:url(pics/bgyellow.png); 
+        margin-top:-9.5px;
+        margin-left:2.5px;
+        width:425px
+    }
+    ul{ 
+        padding-left: 150px;
+        padding-bottom:30px
+    
+    }
+    div .right_container{
+        margin-top:210px;
+        margin-left: px;
+        background:url(pics/white.png); 
+        width:426px;
+        overflow: hidden;
+        margin-left: -1px;
+    }
+    .bg{
+        background:url(pics/ball.png); 
+        background-position:100% 100%; 
+        background-size:51px 51px; 
+        background-repeat: repeat-y;
+        margin-top: -10px;
+    }
+
+    h4{
+        font-family:'Onest'; 
+        text-align: center; 
+        padding-top:20px
+    }
+    
+    div.bg > h3{
+        text-align: center;
+        margin: 10px 10px 10px 10px;
+        padding-top: 20px;
+        font: 20px 'hero';
+        color:black
+    }
+    img[src*="team"]{
+        
+       margin:30px 20px 20px 100px
+       
+       
+       
+    }
+    div.bg > p:first-of-type{
+        margin-top: 230px; 
+        margin-right: 10px;
+        margin-left:20px; 
+        font: 15px 'Arial';
+    }
+    div.bg > p:last-of-type{
+        margin-left: 20px;
+        padding-bottom:10px;
+        font: 15px 'Arial'
+    }
+    
+    
+
+    
+
+    
+}
