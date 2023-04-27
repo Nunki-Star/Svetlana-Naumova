@@ -3,3 +3,13 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+div:first-of-type{
+    height:60px;
+    background-color:lightpink;
+    color:lightcoral
+}
+
+h1{
+    margin-left:
+}
