@@ -2,29 +2,65 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <title>PICTURE</title>
+   
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div>
-    <h1>&#60;picture&#62;</h1>
-  </div>
-  Тег picture позволяет намного гибче работать с изображениями на сайте
-       Обычно когда мы хотим вставить картинку мы используем тег &#60;img&#62; и прописываем пут к картинке src=""
-       например чтобы встваит логотип на сайт мы прописываем и получаем такой логотип, но что если данный логотип на мобильном устройсве нужно сделать немного другим. 
-       То есть из такого логотипа нужно сделать такой, то есть просто показывать просто иконку без текста. Если мы работаем с тегом img, то такое сделать практически невозможно, поэтому рационально
-       использовать тег picture.  
-       Структура этого тега такая:
-       
-        <picture>
-        <source srcset="" media="max-width: 575px">
-        <img src="" alt="">
-       </picture>
-    
-     Обязательным условием использования этого тега будет наличие тега img и source. В теге source используем атрибут @media(такой же как и в css), укажем параметры и данная картинка 
-     будет подгружаться тогда, гда ширина будет менше, чем это значение.
+    <div class="header">
+        <h1>Тег &#60;picture&#62;</h1>
+    </div>
+    <div class="main">
+       <div>
+         <p>Тег picture позволяет намного гибче работать с изображениями на сайте.
+            Обычно когда мы хотим вставить картинку на сайт мы используем тег &#60;img&#62; 
+            и прописываем путь к картинке src="".
+         </p>
+        </div>
 
+        <div style="float:left; width:600px">
+            <p>Например, чтобы встaвить логотип на сайт мы прописываем:</p>
+            <code>&#60;img src&#61;&#8243;withtitle&#46;png&#8243; alt&#61;&#8243;chanel_logo&#8243; title&#61;&#8243;chanel_logo&#8243;&#62;</code>
+            <p>и получаем такой логотип:</p>
+        </div>
+
+        <div>
+            <img src="withtitle-decktop@1x.png" alt="chanel_logo" title="chanel_logo" style="width:300px; height:300px">
+        </div>
+        <div style="clear:both"></div>
+       
+        <div style="float:left; width:600px">
+            <p>Но что, если данный логотип на мобильном устройсве нужно сделать немного другим. 
+          То есть из такого логотипа нужно сделать к примеру такой:</p>
+        </div>
+
+        <div>
+            <img src="wotitle-mobile@1x.png" alt="chanel_logo" title="chanel_logo" style="width:300px; height:300px">
+        </div>
+        <div style="clear:both"></div>
+        <div><p>Иными словами просто показывать иконку без текста. В данном случае рационально
+           использовать тег picture.</p>  
+        <p>Обязательным условием использования этого тега будет наличие тега &#60;img&#62; и &#60;source&#62;. В теге &#60;source&#62;  используем атрибут media(такой же как и в css), укажем параметры и данная картинка 
+          будет подгружаться тогда, когда ширина, к примеру, будет меньше, чем это значение. Пропишем код:<br>
+
+        <code><pre>&#60;picture&#62;<br>
+              &#60;source srcset &#61;&#8243;wotitle-mobile@1&#46;png&#8243; media&#61;&#8243;&#40;max&#8211;width&#58;575px&#41;&#8243;&#62;<br>
+              &#60;img src&#61;&#8243;withtitle-mobile@1&#46;png&#8243; alt&#61;&#8243;chanel_logo&#8243; title&#61;&#8243;chanel_logo&#8243;&#62;<br>
+    &#60;&#8260;picture&#62;</pre></code><br>
+
+        <p>На данном этапе попробуем сузить окно нашего браузера,и когда ширина достигнет значения меньше 575px(до мобильно версии,  о чем говорилось изначально) логотип с именем измениться на лого без.</p><br>
+        <p>Браузер видит этот медиа запрос и подставляет в нужный момент тот логотип, какой нужно показывать</p>
+
+        <picture>
+            <source srcset="wotitle-mobile@1x.png" media="(max-width:575px)" style="width:300px; height:400px">
+            <img src="withtitle-decktop@1x.png" alt="chanel_logo" title="chanel_logo" style="width:300px; height:300px"><br>
+        </picture><br>
+
+        <p>Если мы откроем программный код страницы и сеть, то увидим какой логотип подгружается при заданных параметрах. Браузер сам понимает, что ему нужно подгружать</p>
+        <img src="screen.png" alt="screen" title="screen"></p>
+       </div>
+    </div>
+
+    
         
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script> 
+  
 </body>
