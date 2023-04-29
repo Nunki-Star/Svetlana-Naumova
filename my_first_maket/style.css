@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header{
+   font-family: Roboto;
+   background-color: black;
+   
+    
+    
+}
+
+div .menu{
+    float:left;
+    margin-left:140px;
+    padding-top: 10px;
+    padding-bottom: 12px;
+    
+    
+   
+
+}
+div .delivery{
+    float:right;
+    padding-top: 10px;
+    padding-bottom: 12px;
+
+}
+
+ul li{
+    display:inline-block; 
+    list-style-type:none;
+    padding-right: 30px;
+    
+}
+a{
+    text-decoration: none;
+    color:white
+}
+
+img[src^=".."]{
+    margin-right: 10px;
+}
+
+img[src^="phone"]{
+    margin-right: 11px
+}
+
+ .list{
+    border-bottom:solid black 0.5px;
+    border-left:solid black 0.2px;
+    border-right:solid black 0.2px;
+    font-family: Roboto;
+    margin-left: 140px;
+    margin-right:120px;
+    margin-top:33px;
+    padding-top:25px;
+    padding-bottom:26px
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+ 
+        clearfix::after{
+            content:"";
+            display: block;
+            clear:both
+        }
+        .header{
+            background-color: black;
+            color:white;
+            font-family: Roboto;
+
+           
+        }
+        ul#menu li{
+            display:inline-block; 
+            list-style-type:none;
+            padding-top: 10px;
+            padding-left:140px
+            
+        }
+        .menu{
+            float:left
+        }
+        
+        .delivery{
+            
+            padding-top: 10px;
+            padding-bottom: 12px;
+            padding-right: 375px;
+            
+        }
+        a{
+            text-decoration: none;
+            color:white
+        }
+        a[href^="tel"]::before{
+            content:url(phone.png);
+            padding-left:30px
+            
+        }
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="menu">
+                <ul id="menu">
+                    <li><a href="">Главная</a></li>
+                    <li style="padding-left:30px;"><a href="">О нас</a></li>
+                    <li style="padding-left:30px;"><a href="">Контакты</li>
+                </ul>
+            
+            </div>
+            <div class="delivery" style="float:right;">
+                    <div style="float:left;"><a href="tel:8 (964) 89 99 119" style="margin-left:30px">8 (964) 89 99 119</a></div>
+                    <span><img src="delivery-icon.png"><a href="">Доставка</a></span>
+            </div>
+       </div>
+      <div style="clear:both"></div>
+    </div>
+    <div>
+        <img src="LOGO.png" style="margin-left:140px; margin-top:70px">
+    </div>
+    
+</body>
+</html>
