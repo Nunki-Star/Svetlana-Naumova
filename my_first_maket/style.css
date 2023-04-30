@@ -15,8 +15,7 @@
 div .menu{
     float:left;
     margin-left:140px;
-    padding-top: 10px;
-    padding-bottom: 12px;
+   
     
     
    
@@ -24,8 +23,7 @@ div .menu{
 }
 div .delivery{
     float:right;
-    padding-top: 10px;
-    padding-bottom: 12px;
+    
 
 }
 
@@ -49,13 +47,11 @@ img[src^="phone"]{
 }
 
  .list{
-    border-bottom:solid black 0.5px;
-    border-left:solid black 0.2px;
-    border-right:solid black 0.2px;
+    
     font-family: Roboto;
     margin-left: 140px;
     margin-right:120px;
-    margin-top:33px;
+    margin-top:px;
     padding-top:25px;
     padding-bottom:26px
 }
