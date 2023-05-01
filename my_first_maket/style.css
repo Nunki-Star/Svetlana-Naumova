@@ -51,7 +51,12 @@ a{
     margin-top:40px
 }
 
-    
+.large_pic{
+    background-image: url(list_items/large_pic.png);
+    background-repeat: no-repeat;
+    height:450px;
+    margin-left:130px
+}
 
 
  
