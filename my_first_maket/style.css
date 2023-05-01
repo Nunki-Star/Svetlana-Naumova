@@ -46,7 +46,9 @@ a{
     background-image: url(list_items/bg-menu.png);
     background-repeat: no-repeat;
     margin-left:140px;
-    margin-right:120px
+    margin-right:120px;
+    height:120px;
+    margin-top:40px
 }
 
     
