@@ -85,7 +85,7 @@ div.logo div>img[src*="LOGO"]{
 
 img[src*="wishlist"]{
     float:left;
-    margin-left:-155px;
+    margin-left:-145px;
   
 }
 
@@ -114,13 +114,83 @@ img[src*="profile"]{
     margin-top:40px
 }
 
+
+
+ img[src*="Rectangle37"]{
+    padding-left:38.04px; 
+    margin-top:20px
+ }
+
+   
+
+ .list_items > ul li{
+    font-size: 16px;
+    padding-right:4px; 
+    padding-top:30px;
+ }
+
+ .list_items img[src*="kitchen"]{
+    padding-right: 10px;
+ }
+
+ .list_items ul li:nth-child(2), .list_items ul li:nth-child(3){
+    padding-left: 50px; 
+    
+ }
+
+ .list_items ul li:nth-child(4), .list_items ul li:nth-child(5){
+    padding-left: 40px; 
+ }
+
+.list_items ul li:nth-child(6){
+    padding-left: 50px;
+}
+
+.list_items img[src$="png"]{
+    padding-right: 10px;
+}
+
+img[src*="etc"]{
+    padding-left:20px
+}
+.list_items a{
+    color:black;
+    
+}
 .large_pic{
     background-image: url(list_items/large_pic.png);
     background-repeat: no-repeat;
     height:450px;
     margin-left:130px
 }
- img[src*="Rectangle37"]{
-    padding-left:38.04px; 
-    margin-top:20px
- }
+
+.large_pic img[src*="loft"]{
+    margin-top:120px; 
+    margin-left:120px
+}
+
+.large_pic img[src*="comfy"]{
+    margin-top: 10px;
+    margin-left:120px
+}
+
+.large_pic div:nth-child(3){
+    background-image: url(list_items/little_rec.png);
+    background-repeat:no-repeat; 
+    margin-top:15px; 
+    margin-left:120px; 
+    height:45px
+}
+
+.large_pic div:nth-child(3) p{
+    padding-top:10px; 
+    padding-left:15px;
+    font-size:16px
+}
+
+.large_pic div:nth-child(3) p a{
+    text-decoration:none; 
+    color:black;
+    font-size:16px 
+
+}
