@@ -16,11 +16,19 @@
     padding-bottom:12px;
     padding-left: 50px;
     
-    
-}    
+}
 .menu{
     float:left;
 }
+
+.menu > ul li:first-child{
+    padding-right: 30px;
+}
+
+.menu > ul li:nth-child(2){
+    padding-right: 30px;
+}    
+   
 
 div .delivery{
     float:right;
@@ -32,6 +40,26 @@ ul li{
    
     
 }
+.delivery{
+    margin-right: -20px;
+}
+ 
+img[src*="phone"] {
+    padding-right:11px
+}
+    
+a [href^="tel"]{
+    padding-right:30px
+
+}
+
+img[src*="delivery-icon"]{
+  
+    padding-left: 30px;
+    padding-right:10px
+
+}
+
 a{
     text-decoration: none;
     color:white
@@ -58,15 +86,3 @@ a{
     margin-left:130px
 }
 
-.delivery{
-    margin-right: -30px;
-}
- 
-img[src*="phone"] {
-    padding-right:11px
-}
-    
-a [href^="tel"]{
-    padding-right:30px
-
-}
