@@ -194,3 +194,38 @@ img[src*="etc"]{
     font-size:16px 
 
 }
+
+img[src*="hits"]{
+    margin-left:140px; 
+    margin-top:30px
+}
+
+div.one:first-child {
+    float:left
+}
+
+div.one div:first-child{
+    margin-top:56px;
+    margin-left:370px
+}
+
+div.one div:nth-child(2){
+    margin-top:38px;
+    margin-left:172px
+}
+
+.one p:first-of-type{
+    margin-top:54px; 
+    margin-left:160px
+}
+
+.one p:nth-of-type(2){
+    font-size:11px; 
+    margin-top:-6px; 
+    margin-left:160px
+}
+
+.one p:nth-of-type(3){
+    margin-top:9px; 
+    margin-left:160px
+}
