@@ -58,8 +58,15 @@ a{
     margin-left:130px
 }
 
-
+.delivery{
+    margin-right: -30px;
+}
  
+img[src*="phone"] {
+    padding-right:11px
+}
     
-    
+a [href^="tel"]{
+    padding-right:30px
 
+}
