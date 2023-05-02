@@ -43,7 +43,16 @@ ul li{
 .delivery{
     margin-right: -20px;
 }
- 
+div.delivery div:first-child{
+    float:left;
+    
+}
+
+div.delivery div:nth-child(2){
+    float: right;
+    margin-right:121px
+}
+
 img[src*="phone"] {
     padding-right:11px
 }
@@ -56,8 +65,7 @@ a [href^="tel"]{
 img[src*="delivery-icon"]{
   
     padding-left: 30px;
-    padding-right:10px
-
+    padding-right:11px;
 }
 
 a{
@@ -69,7 +77,34 @@ a{
     margin-left:140px;
     margin-right:121px
 }
+
+div.logo div>img[src*="LOGO"]{
+    float:left;
+    margin-top:32px;
+}
+
+img[src*="wishlist"]{
+    float:left;
+    margin-left:-155px;
+  
+}
+
+ img[src*="bag"]{
+    float:left;
+    margin-left:-105px;
+    margin-top:-1px
    
+}
+
+img[src*="reddot"]{
+    float:left;
+    margin-left:-90px;
+   
+}
+img[src*="profile"]{
+    float:left;
+    margin-left:-60px
+}
 .list_items{
     background-image: url(list_items/bg-menu.png);
     background-repeat: no-repeat;
