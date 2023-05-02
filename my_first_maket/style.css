@@ -72,7 +72,7 @@ a{
     text-decoration: none;
     color:white
 }
-
+/*logo field*/
 .logo{
     margin-left:140px;
     margin-right:121px
@@ -89,7 +89,7 @@ img[src*="wishlist"]{
   
 }
 
- img[src*="bag"]{
+img[src*="bag"]{
     float:left;
     margin-left:-105px;
     margin-top:-1px
@@ -114,6 +114,8 @@ img[src*="profile"]{
     margin-top:40px
 }
 
+
+/* kitchen bedroom etc field*/
 
 
  img[src*="Rectangle37"]{
@@ -155,8 +157,13 @@ img[src*="etc"]{
 }
 .list_items a{
     color:black;
-    
+
 }
+
+
+/*large picture promotion field*/
+
+
 .large_pic{
     background-image: url(list_items/large_pic.png);
     background-repeat: no-repeat;
@@ -200,8 +207,14 @@ img[src*="hits"]{
     margin-top:30px
 }
 
-div.one:first-child {
-    float:left
+
+
+/* valencia beige*/
+
+
+.furniture_samples1 div.one:first-child {
+    float:left;
+    background-color: aquamarine;
 }
 
 div.one div:first-child{
@@ -229,3 +242,55 @@ div.one div:nth-child(2){
     margin-top:9px; 
     margin-left:160px
 }
+
+
+/* toliks white gloss*/
+div.two:nth-child(2) {
+    float:left;
+    
+    
+}
+
+div.two div:first-child{
+    margin-top:56px;
+    margin-left:274.5px;
+}
+
+div.two div:nth-child(2){
+    margin-top:38px; 
+    margin-left:38px;
+    
+}
+
+.two p:first-of-type{
+    margin-top:54px; 
+    margin-left:20px;
+    
+
+}
+
+.two p:nth-of-type(2){
+    font-size:11px; 
+    margin-top:-6px; 
+    margin-left:20px;
+    
+}
+
+.two p:nth-of-type(3){
+    margin-top:9px; 
+    margin-left:20px
+}
+
+/* dins velvet yellow */
+
+
+ 
+
+
+/*firnituresamples2*/
+.furniture_samples2 div.one:first-child{
+    float:left
+}
+
+ 
+    
