@@ -120,4 +120,7 @@ img[src*="profile"]{
     height:450px;
     margin-left:130px
 }
-
+ img[src*="Rectangle37"]{
+    padding-left:38.04px; 
+    margin-top:20px
+ }
