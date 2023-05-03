@@ -306,3 +306,8 @@ div.discount_field img[src*="heartshape"]{
     padding-left:162px
 }
 
+/*footer*/
+.footer{
+    background-image: url(footer/bg-footer.png);
+    height:234px
+}
