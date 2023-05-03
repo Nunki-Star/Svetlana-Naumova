@@ -208,13 +208,15 @@ img[src*="hits"]{
 }
 
 
+/* FURNITURE FIELD */
+
+/*FIRST ROW*/
 
 /* valencia beige*/
 
-
 .furniture_samples1 div.one:first-child {
     float:left;
-    background-color: aquamarine;
+  
 }
 
 div.one div:first-child{
@@ -244,7 +246,7 @@ div.one div:nth-child(2){
 }
 
 
-/* toliks white gloss*/
+/* toliks white gloss and ect.*/
 div.two:nth-child(2) {
     float:left;
     
@@ -281,14 +283,9 @@ div.two div:nth-child(2){
     margin-left:20px
 }
 
-/* dins velvet yellow */
 
-
- 
-
-
-/*firnituresamples2*/
-.furniture_samples2 div.one:first-child{
+ /*SECOND ROW AND FURTHER*/
+ .furniture_samples2 div.one:first-child{
     float:left
 }
 
