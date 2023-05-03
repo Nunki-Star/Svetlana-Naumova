@@ -210,10 +210,7 @@ img[src*="hits"]{
 
 /* FURNITURE FIELD */
 
-/*FIRST ROW*/
-
-/* valencia beige*/
-
+/*first item of the row*/
 .furniture_samples1 div.one:first-child {
     float:left;
   
@@ -246,7 +243,7 @@ div.one div:nth-child(2){
 }
 
 
-/* toliks white gloss and ect.*/
+/* second items of the rows and further.*/
 div.two:nth-child(2) {
     float:left;
     
@@ -284,10 +281,28 @@ div.two div:nth-child(2){
 }
 
 
- /*SECOND ROW AND FURTHER*/
- .furniture_samples2 div.one:first-child{
-    float:left
+ /*window with discount*/
+
+.discount_window{
+    margin-left:50.5px;
+    margin-top:56px
 }
 
- 
     
+div.discount_field img[src*="Vector"]{
+    float:left;
+    margin-right:7px
+    
+
+}
+
+div.discount_field img[src*="discount"]{
+    float:left;
+    margin-top:4px
+}
+
+div.discount_field img[src*="heartshape"]{
+    float:left;
+    padding-left:162px
+}
+
