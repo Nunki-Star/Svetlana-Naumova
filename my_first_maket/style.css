@@ -313,3 +313,60 @@ div.discount_field img[src*="heartshape"]{
     height:234px
 }
 
+.left_footer{
+    background-color: gold;
+    float:left; 
+    padding-top:54px; 
+    padding-left:130px;
+}
+
+.left_footer div:first-of-type{
+    background-color: palevioletred;
+    font-size:14px; 
+    font-weight:400
+}
+
+.left_footer div:nth-child(2){
+    color: violet;
+    font-size:14px; 
+    padding-top:10px;
+}
+
+.left_footer div:nth-child(2) ul:first-of-type{
+    color:blue;
+    float:left; 
+    padding-left:0px
+
+}
+/*спальни гостинные*/
+.left_footer div:nth-child(2) ul:first-of-type li:nth-of-type(2),
+.left_footer div:nth-child(2) ul:first-of-type li:nth-of-type(3){
+    background-color: green;
+    padding-top:7px
+}
+
+.left_footer div:nth-child(2) ul:nth-of-type(2),
+.left_footer div:nth-child(2) ul:nth-of-type(3){
+    color:red;
+    float:left
+}
+/* офисная мебель и детская*/
+.left_footer div:nth-child(2) ul:nth-of-type(2) li:nth-of-type(2),
+.left_footer div:nth-child(2) ul:nth-of-type(2) li:nth-of-type(3){
+    background-color: orange;
+    padding-top:7px
+}
+
+/* матсрасы и мягкая мебель*/
+.left_footer div:nth-child(2) ul:nth-of-type(3) li:nth-of-type(2),
+.left_footer div:nth-child(2) ul:nth-of-type(3) li:nth-of-type(3){
+    background-color: beige;
+    padding-top:7px
+}
+
+.left_footer div:last-of-type{
+    background-color: aquamarine;
+    margin-bottom:34px
+}
+
+.left_footer
