@@ -381,3 +381,23 @@ div.discount_field img[src*="heartshape"]{
     color:black; 
     margin-left:30px
 }
+
+div.footer div.right_footer{
+    background-color: red;
+    float:right; 
+    padding-top:49px; 
+    padding-right:128px
+
+}
+
+.right_footer div:first-of-type{
+    background-color: pink;
+    text-align:right
+}
+
+.right_footer > div:nth-child(2) p{
+    background-color: skyblue;
+    text-align: right;
+    font-size:14px;
+    margin-top:30px
+}
