@@ -369,4 +369,15 @@ div.discount_field img[src*="heartshape"]{
     margin-bottom:34px
 }
 
-.left_footer
+.left_footer div:last-of-type span:first-of-type a{
+    background-color: bisque;
+    font-size:14px; 
+    color:red
+}
+
+.left_footer div:last-of-type span:last-of-type a{
+    background-color: aliceblue;
+    font-size:14px; 
+    color:black; 
+    margin-left:30px
+}
