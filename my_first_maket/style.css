@@ -390,7 +390,7 @@ div.footer div.right_footer{
 
 }
 
-.right_footer div:first-of-type{
+.right_footer > div:first-of-type{
     background-color: pink;
     text-align:right
 }
@@ -401,3 +401,9 @@ div.footer div.right_footer{
     font-size:14px;
     margin-top:30px
 }
+
+ .right_footer div.bottom > div:first-of-type{
+   background-color: blueviolet;
+   
+ }
+
