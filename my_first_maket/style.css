@@ -401,9 +401,54 @@ div.footer div.right_footer{
     font-size:14px;
     margin-top:30px
 }
-
+/*phone*/
  .right_footer div.bottom > div:first-of-type{
    background-color: blueviolet;
-   
- }
+   float:left;
+}
+.right_footer div.bottom > div:first-of-type img[src*="phone"]{
+    background-color: yellowgreen;
+    float:left; 
+    padding-left:10px
+}
+.right_footer div.bottom > div:first-of-type p{
+    background-color: aquamarine;
+    float:left;
+}
+
+
+/*instagram*/
+.right_footer div.bottom >div:nth-child(2){
+    background-color: blue;
+    float:left; 
+    padding-left:30px
+}
+.right_footer div.bottom > div:nth-child(2) img[src*="inst"]{
+    background-color: yellow;
+    float:left; 
+    padding-right:10px
+
+}
+.right_footer div.bottom > div:nth-child(2) p{
+    background-color: green;
+    float:left
+}
+/*mail*/
+.right_footer div.bottom >div:nth-child(3){
+    background-color: bisque;
+    float:left; 
+    padding-left:30px
+}
+.right_footer div.bottom > div:nth-child(3) img[src*="mail"]{
+    background-color: pink;
+    float:left; 
+    padding-right:10px
+
+}
+.right_footer div.bottom > div:nth-child(3) p{
+    background-color: sandybrown;
+    float:left
+
+}
+
 
