@@ -434,7 +434,7 @@ div.footer div.right_footer{
     float:left
 }
 /*mail*/
-.right_footer div.bottom >div:nth-child(3){
+.right_footer div.bottom > div:nth-child(3){
     background-color: bisque;
     float:left; 
     padding-left:30px
