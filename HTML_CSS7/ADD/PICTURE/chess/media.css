@@ -1,0 +1,7 @@
+@media print{
+    .info::after {
+        content: ' (' attr(href) ') '; /* Выводим адрес ссылки в скобках */
+       
+        
+       }
+    }
