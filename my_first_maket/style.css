@@ -14,7 +14,7 @@
     background-color: black;
     padding-top:10px; 
     padding-bottom:12px;
-    padding-left: 50px;
+    
     
 }
 .menu{
@@ -85,25 +85,25 @@ div.logo div>img[src*="LOGO"]{
 
 img[src*="wishlist"]{
     float:left;
-    margin-left:-145px;
+    margin-left:-110px;
   
 }
 
 img[src*="bag"]{
     float:left;
-    margin-left:-105px;
+    margin-left:-70px;
     margin-top:-1px
    
 }
 
 img[src*="reddot"]{
     float:left;
-    margin-left:-90px;
+    margin-left:-57px;
    
 }
 img[src*="profile"]{
     float:left;
-    margin-left:-60px
+    margin-left:-30px
 }
 .list_items{
     background-image: url(list_items/bg-menu.png);
@@ -153,7 +153,7 @@ img[src*="profile"]{
 }
 
 img[src*="etc"]{
-    padding-left:20px
+    padding-left:15px
 }
 .list_items a{
     color:black;
