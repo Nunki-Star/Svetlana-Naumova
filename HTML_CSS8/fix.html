@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="http://fe.it-academy.by/TestForm.php" method="get">
+        <input type="text" name="last name">
+        <input type="submit" value="send">
+    </form><br>
+
+    <form action="http://fe.it-academy.by/TestForm.php" method="get">
+        <select name="citytype" size="3">
+            <option value="7">Minsk</option>
+            <option value="6">Vitebsk</option>
+            <option value="5">Gomel</option>
+            <option value="4">Minsk</option>
+            <option value="3">Minsk</option>
+        </select>
+            <input type="submit" value="find">
+    </form><br>
+
+    <form action="http://fe.it-academy.by/TestForm.php" method="post">
+        
+            <p><b>Please enter your feedback</b></p>
+            <p><textarea rows="10" cols="45" name="text"></textarea></p>
+            <p><input type="submit" value="Отправить"></p>
+    </form><br>
+
+    <form>
+        <p>Please select your favourite animal</p>
+  
+        <input type="radio" id="contactChoice1"
+                name="contact" value="email">
+        <label for="contactChoice1">dog</label>
+
+        <input type="radio" id="contactChoice2"
+                name="contact" value="phone">
+        <label for="contactChoice2">cat</label>
+
+        <input type="radio" id="contactChoice3"
+                name="contact" value="mail">
+        <label for="contactChoice3">giraffe</label>
+    
+        <button type="submit">send</button>
+
+    </form><br>
+
+    <form>
+        <p>Please select your hobby</p>
+            <input type="checkbox" id="coding" name="interest" value="coding">
+            <label for="music">coding</label>
+            <input type="checkbox" id="coding" name="interest" value="coding">
+            <label for="music">singing</label>
+            <input type="checkbox" id="coding" name="interest" value="coding">
+            <label for="music">dancing</label>
+            <button type="submit">send</button>
+    </form>
+
+
+</body>
+</html>
