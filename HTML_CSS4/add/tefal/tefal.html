@@ -8,21 +8,33 @@
     <style>
         .main{
             display:inline-block;
-            position:relative
+            position:relative;
+            
+            
+            
         }
-
-
+        
+        .main:hover img[src^="small"]{
+            position:absolute;
+            margin-top:-200px;
+            transition: 2s;
+        
+        }
     </style>
 </head>
 <body>
     <div class="main">
-        <img src="small.png" style="position:">
-   
-   
-        <img src="large.png">
-     
-   
-        <img src="bottom_part.png">
+       
+       <div  style="position:absolute; margin-top:208px; margin-left: 59px; z-index:1">
+        <img src="small.png">
+       </div>
+        <div style="position:absolute; margin-top:190px">
+            <img src="large.png"">
+        </div>
+        <div style="position:absolute; margin-top:260px; margin-left:4px; z-index:2">
+            <img src="bottom_part.png">
+        </div>
+        </a>
     </div>
 
 </body>
