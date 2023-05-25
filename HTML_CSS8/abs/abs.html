@@ -13,12 +13,20 @@
 
         }
         .parent{
-            background-color: blue;
+            
             position:relative;
             width:100%
         }
         
-        
+        .parent > div > div > div.first:hover{
+            z-index:1
+        }
+        .parent > div > div > div.second:hover{
+            z-index:1
+        }
+        .parent > div > div > div.third:hover{
+            z-index:1
+        }
     </style>
 </head>
 <body>
@@ -34,14 +42,14 @@
                 <div class="first" style="position:absolute; margin-left:-70px">
                     <img src="biohazard.png">
                 </div>
-                <div class="second" style="position:absolute; margin-left:140px; z-index:3">
+                <div class="second" style="position:absolute; margin-left:140px;">
                     <img src="man_and_woman.png">
                 </div>
-                <div class="third" style="position:absolute;margin-top:50px; z-index:4">
-                    <img src="No_smoking.png">
-                </div>
-                <div class="fourth" style="position:absolute; margin-top:200px; margin-left:29px; z-index:1">
+                <div class="third" style="position:absolute; margin-top:200px; margin-left:29px;">
                     <img src="Yin_and_Yang.png">
+                </div>
+                <div class="fourth" style="position:absolute;margin-top:50px;">
+                    <img src="No_smoking.png">
                 </div>
 
         </div>
