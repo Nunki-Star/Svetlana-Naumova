@@ -8,26 +8,51 @@
 </head>
 <body>
     <div>
-        <p>To post your article, kindly fill up the form:</p>
+        <p>To publish your article, kindly fill up the below form:</p>
        
         <form action="http://fe.it-academy.by/TestForm.php" method="get">
-            <div style="float:left; width:10%">
+            <div style="width:200px; float:left">
                 <label for="a_title">
                     Article title
                 </label>
-            </div><br><br>
-            
-            <!--<div style="float:right; width:90%; border:solid magenta 2px; margin-top:-20px; height:30px">
-                <div style="border: solid blue 1px; width:30%; float:left; background-image: url(middle.png); height:30px">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, temporibus deleniti reprehenderit deserunt, dolores molestiae enim exercitationem, ab eum facere repudiandae minima tenetur unde quibusdam et est sapiente id? Ipsum.</div>
-                <div style="border: solid red 1px; margin-left:32%">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat ratione mollitia impedit tenetur atque optio non, at tempora distinctio quo nostrum, fugit eius fuga, aut porro ex voluptatum maxime autem.</div>
-                <div style="clear:both"></div>
+            </div> 
+            <div style="float:left;">  
+                <input type="text" style="width:100%">
             </div>
-            <div style="clear:both"></div> -->  
-           
-           <div>
-            <input type="text" style="width:100%; margin-left:50px; margin-right:50px">
+                <div style="clear:both"></div>
+        
+    
+           <div style="width:200px; float:left;">
+            <label for="heading">
+                Heading
+            </label>
            </div>
-        </form>
+           <select>
+                <option>
+                    programming
+                </option>
+                <option>
+                    graphics and design
+                </option>
+                <option>
+                    computer technology
+                </option>
+           </select>
+           <div>
+                <div style="clear:both"></div>
+
+            <div style="width:200px; float:left">
+                <label for="piblication">Publicaion</label>
+            </div>
+            
+            <div>
+                <input type="radio" name="publication" value="1">website
+                <input type="radio" name="publication" value="1">magazine
+                <input type="radio" name="publication" value="1">website and magazine
+            </div>
+
+                <div style="clear:both"></div>
+        
 
     </div>
 </body>
