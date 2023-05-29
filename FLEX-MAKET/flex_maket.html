@@ -6,31 +6,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>logistic company</title>
     <style>
+        *{
+            padding:0;
+            margin:0;
+            box-sizing: border-box;
+        }
         .main{
-            position:fixed;
-            height:100vh;
-
+            background-color: bisque;
+        }
+        .head_header{
+            background-color: blue;
+            display:flex;
+            flex-direction: row;
+        }
+        .list_lang li{
+            
+            display:inline;
+            
+        }
+        .count_info{
+            
+            display:flex;
+            flex-direction: row;
+            margin-left:80px
         }
     </style>
 </head>
 <body>
-    <div class="main" style="background-image:url(pics/main_image.png); width:100%; height:100vh; position:fixed ">
+    <div class="main" style="padding-right:100px; position:fixed; top:0; left:0; height:100vh;"></div>
     
-    <div class="header">
-        <div class="head" style>
-            <div><img src="pics/RosLogistic.png"></div>
-            <div><img src="pic/log_comp.png"></div>
-            <div>
-                    <ul>
-                        <li>RU</li>
-                        <li>EN</li>
-                        <li>CH</li>
+    <div class="header" style="background-image:url(pics/main_image.png); height:100vh">
+        <div style="margin-left: 100px; padding-top:31px">
+            <div class="head_header">
+                <div><img src="pics/RosLogistic.png" style><img src="pics/log_comp.png" style="padding-left:12px"></div>
+                <div class="list_lang">
+                    <ul style="list-style-type:none; margin-left:100px">
+                        <li style="padding-right:16px"><img src="pics/RU.png"></li>
+                        <li style="padding-right:16px"><img src="pics/EN.png"></li>
+                        <li><img src="pics/ch.png"></li>
                     </ul>
+                </div>
+                <div class="count_info">
+                    <div style="display:flex; flex-direction:column">
+                        <img src="pics/eight.png">
+                        <img src="pics/federal.png">
+                    </div>
+                    <div style="display:flex; flex-direction:column; margin-left:84px">
+                        <img src="pics/eight.png">
+                        <img src="pics/saint_p.png">
+                    </div>
+                </div>
+
+                <div>
+                    <button><img src=""></button>
+                </div>
             </div>
-            </div>
-            <div class="delivery_logo"></div>
-            <div class="footer"></div>
         </div>
+        
     </div>
+
+            
 </body>
 </html>
