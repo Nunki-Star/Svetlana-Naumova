@@ -1,0 +1,39 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.header{
+    background-image:url(pics/main_image.png);
+    background-color: pink
+}
+.header > div{
+   
+   padding-top:30px;
+   padding-right:100px;
+   padding-left:100px
+   
+
+}
+
+.head_header{
+    margin-left:100px;
+    display:flex;
+    flex-direction:row;
+    background-color: green;
+}
+
+.list_lang li{
+   display:inline;
+}
+
+.count_info{
+    
+    display:flex;
+    flex-direction: row;
+}
+
+.list_lang{
+    background-color: red;
+    margin-left: 30px;
+}
