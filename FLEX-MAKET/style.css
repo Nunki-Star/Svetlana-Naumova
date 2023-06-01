@@ -4,20 +4,19 @@
     box-sizing: border-box;
 }
 .header{
-    background-image:url(pics/main_image.png);
-    background-color: pink
+   background-image:url(pics/main_image.png);
+   height:100vh;
+   
+   background-color: pink;
 }
 .header > div{
-   
    padding-top:30px;
-   padding-right:100px;
-   padding-left:100px
    
-
+   padding-left: 40px;
 }
 
 .head_header{
-    margin-left:100px;
+    
     display:flex;
     flex-direction:row;
     background-color: green;
@@ -37,3 +36,21 @@
     background-color: red;
     margin-left: 30px;
 }
+
+.list_lang{
+    background-color: aquamarine;
+    margin-left:30px;
+
+}
+
+.list_lang ul{
+    background-color: blueviolet;
+    list-style-type:none; 
+    display:inline 
+}
+
+.list_lang ul li{
+    background-color: yellow;
+    padding-right: 16px;
+}
+
