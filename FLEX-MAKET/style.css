@@ -158,10 +158,11 @@ div img[src*="line"]{
     background-image: url(pics/Subtract.png);
     background-repeat: no-repeat;
     background-position: 100% 100%;
-    background-size:00px 300px;
+    background-size:700px 300px;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    
    
 }
 
@@ -219,16 +220,51 @@ div img[src*="line"]{
     margin-top:80px;
     display:flex;
     flex-direction: row;
-    background-color: yellow;
+    justify-content:start
+    
 }
 .offer div.left_offer div.example{
     display:flex;
     flex-direction:row
 }
 .offer div.left_offer div.example div.icons_offer div{
-    background-color: red;
     display:flex;
-    flex-direction:row
-    
+    flex-direction:row;
+    margin-top:25px;
+    font-family: "Evolventa";
+    font-size:20px;
+    font-weight:400
+}
 
+.left_offer > p:first-child{
+    font-family: "Evolventa";
+    font-size:28px;
+    font-weight:700
+}
+
+.left_offer > p:nth-child(2){
+    font-family: "Evolventa";
+    font-size:18px;
+    font-weight:400;
+    margin-top:25px;
+}
+div.icons_offer div p:last-child{
+    margin-left:15px
+}
+.example{
+    margin-top:40px
+}
+
+.icons_offer div:last-child p{
+    
+    font-family: "Evolventa";
+    font-style:italic;
+    font-size:24px;
+    font-weight:400;
+    margin-top:25px;
+}
+
+img[src*="btn_black"]{
+    margin-top:32px;
+    margin-left:200px
 }
