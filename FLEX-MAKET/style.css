@@ -9,13 +9,13 @@
 }
 .header{
    background-image:url(pics/main_image.png);
-   height:100vh
-
+   height:100vh;
    
 }
 .header > div{
    padding-top:32px;
    padding-left: 40px;
+
 }
 
 .head_header{
