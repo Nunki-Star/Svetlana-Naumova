@@ -215,3 +215,20 @@ div img[src*="line"]{
 
 
 
+.offer{
+    margin-top:80px;
+    display:flex;
+    flex-direction: row;
+    background-color: yellow;
+}
+.offer div.left_offer div.example{
+    display:flex;
+    flex-direction:row
+}
+.offer div.left_offer div.example div.icons_offer div{
+    background-color: red;
+    display:flex;
+    flex-direction:row
+    
+
+}
