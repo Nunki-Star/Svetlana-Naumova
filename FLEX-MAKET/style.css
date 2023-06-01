@@ -103,22 +103,60 @@ img[src*="menu"]{
 }
 
 .content_block{
-    
+    padding-left:40px;
     padding-top:100px; 
-    margin-left:100px
-}
-
-.content_block div{
-    padding-left:40px
+    margin-left:100px;
+   
     
 }
 
+div img[src*="line"]{
+     margin-top:50px
+}
 .content_block div h1{
     font-family:'Evolventa';
     font-size:64px
 }
 
-.content_block div:nth-child(2){
-    margin-top:48px; 
-    padding-left:40px
+.deliv_options{
+    margin-top:50px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.deliv_options div{
+    display:flex;
+    flex-direction: row;
+}
+
+.deliv_options div p{
+    font-family:'Evolventa';
+    font-size:20px;
+    padding-left:30px
+}
+
+.content_block div:nth-child(4){
+    margin-top:200px
+}
+
+.left_block p:first-child{
+    font-family:"Evolventa";
+    font-size:28px;
+    font-weight:700
+}
+
+.left_block p:last-child{
+    font-family:"Evolventa";
+    font-size:18px;
+    font-weight:400;
+    
+}
+.opportunities{
+    margin-top:80px;
+    background-image: url(pics/Subtract.png);
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-size:500px 300px
+   
 }
