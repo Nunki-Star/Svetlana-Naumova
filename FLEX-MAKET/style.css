@@ -136,8 +136,9 @@ div img[src*="line"]{
     padding-left:30px
 }
 
-.content_block div:nth-child(4){
-    margin-top:200px
+.content_block div:nth-child(4) h1{
+    margin-top:200px;
+    
 }
 
 .left_block p:first-child{
@@ -157,6 +158,36 @@ div img[src*="line"]{
     background-image: url(pics/Subtract.png);
     background-repeat: no-repeat;
     background-position: 100% 100%;
-    background-size:500px 300px
+    background-size:00px 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
    
+}
+
+.opportunities div.right_block p{
+    
+    font-family:"Evolventa";
+    font-size:28px;
+    font-weight:700;
+}
+
+.opportunities div.right_block div{
+    display:flex;
+    flex-direction: row;
+    
+}
+.opportunities div.right_block{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.right_block div p{
+    
+    margin-left:10px
+}
+
+.cargo{
+    margin-top:100px
 }
