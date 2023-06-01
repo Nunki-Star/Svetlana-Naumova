@@ -3,54 +3,122 @@
     margin:0;
     box-sizing: border-box;
 }
+@font-face {
+    font-family: Evolventa;
+    src: url(Evolventa_font/Evolventa-Regular.ttf);
+}
 .header{
    background-image:url(pics/main_image.png);
-   height:100vh;
+   height:100vh
+
    
-   background-color: pink;
 }
 .header > div{
-   padding-top:30px;
-   
+   padding-top:32px;
    padding-left: 40px;
 }
 
 .head_header{
-    
     display:flex;
     flex-direction:row;
-    background-color: green;
+    justify-content: space-evenly;
+    
 }
 
 .list_lang li{
    display:inline;
 }
 
-.count_info{
-    
-    display:flex;
-    flex-direction: row;
-}
+
+
 
 .list_lang{
-    background-color: red;
-    margin-left: 30px;
-}
-
-.list_lang{
-    background-color: aquamarine;
-    margin-left:30px;
-
+    padding-top: 10px
 }
 
 .list_lang ul{
-    background-color: blueviolet;
     list-style-type:none; 
-    display:inline 
+    
 }
 
 .list_lang ul li{
-    background-color: yellow;
-    padding-right: 16px;
+    font-family:"Evolventa";
+    font-size:20px;
+    font-weight:700;
+    color:white;
+    padding-left:10px
+
+
+}
+.count_info{
+    display:flex;
+    flex-direction: row;
+}
+.main{
+    background-image:url(pics/main_image.png); 
+    position:fixed; 
+    top:0; 
+    left:0; 
+    height:100vh; 
+    padding-left:20px; 
+    padding-right:20px
+}
+img[src*="menu"]{
+    padding-top: 37.5px;
 }
 
+.head_header div p:nth-child(1){
+    font-family:Evolventa; 
+    color:white; 
+    font-weight:700; 
+    font-size:37.03px; 
+    
+}
+.head_header div p:nth-child(2){
+    font-family:Evolventa; 
+    color:white; 
+    font-weight:400;
+    font-size:14px
+}
+.count_info div{
+    
+    display:flex;
+    flex-direction: row;
+    
+
+}
+.count_info div:first-child{
+    padding-right: 30px
+}
+
+.center{
+    margin-top: 200px;
+}
+
+.center h1{
+    font-family:'Evolventa';
+    font-size:64px;
+    font-weight:700;
+    color:white;
+}
+
+.content_block{
+    
+    padding-top:100px; 
+    margin-left:100px
+}
+
+.content_block div{
+    padding-left:40px
+    
+}
+
+.content_block div h1{
+    font-family:'Evolventa';
+    font-size:64px
+}
+
+.content_block div:nth-child(2){
+    margin-top:48px; 
+    padding-left:40px
+}
