@@ -189,5 +189,29 @@ div img[src*="line"]{
 }
 
 .cargo{
-    margin-top:100px
+    margin-top:100px;
+    width:100%
 }
+
+.cargo img[src*="cargo"]{
+   width:100%
+   
+}
+
+.cargo div{
+    position:absolute;
+    background-color: white;
+    margin-top: -100px;
+    width:85%;
+    
+    
+}
+
+.cargo div p{
+    font-family: "Evolventa";
+    font-size:56px;
+    font-weight:700
+}
+
+
+
