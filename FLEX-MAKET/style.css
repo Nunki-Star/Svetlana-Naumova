@@ -498,10 +498,45 @@ img[src*="btn_black"]{
 .footer_main{
     display:flex;
     flex-direction: row;
+    justify-content: space-between;
+    margin-top:88px
 }
 
 .footer_main div.fm_left{
     display:flex;
     flex-direction: row;
-    color:white
+    justify-content: space-evenly;
+    color:white;
+    font-family: "Evolventa";
+    font-size:18px;
+    font-weight:700;
+    background-color: blueviolet;
+
+
+}
+
+.footer_main div.fm_right{
+    margin-right:100px;
+    background-color: bisque;
+    
+}
+
+.footer_bottom {
+    margin-top:83px;
+    color:white;
+    font-family: "Evolventa";
+    font-size:20px;
+    font-weight:400;
+    background-color: salmon;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.footer_bottom div:last-child{
+    background-color: lightskyblue;
+    display:flex;
+    flex-direction: row;
+    padding-right:100px
 }
