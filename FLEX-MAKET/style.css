@@ -376,3 +376,63 @@ img[src*="btn_black"]{
     font-size:56px;
     font-weight:700;
 }
+
+.lists_of_goods{
+    display:flex;
+    flex-direction: row;
+    margin-top:98px
+}
+
+.left_goods{
+    display:flex;
+    flex-direction: row;
+    
+}
+
+.lists_of_goods div.left_goods div.list1 div{
+    background-color: green;
+    display:flex;
+    flex-direction: row;
+   
+}
+
+.lists_of_goods div.left_goods div.list1 div:nth-child(n+2){
+   background-color: yellow;
+   margin-top:30px
+}
+.lists_of_goods div.left_goods div.list1 div p:nth-child(n+2){
+    background-color: aqua;
+    margin-top:20px
+   
+}
+.lists_of_goods div.left_goods div.list1 div p{
+    margin-left: 20px;
+    font-family: "Evolventa";
+    font-size:20px;
+    font-weight:400;
+}
+
+/*list2*/
+
+.lists_of_goods div.left_goods div.list2 div{
+    background-color: blue;
+    display:flex;
+    flex-direction: row;
+   
+}
+
+.lists_of_goods div.left_goods div.list2 div:nth-child(n+2){
+   background-color: red;
+   margin-top:30px
+}
+.lists_of_goods div.left_goods div.list2 div p:nth-child(n+2){
+    background-color: pink;
+    margin-top:20px
+   
+}
+.lists_of_goods div.left_goods div.list2 div p{
+    margin-left: 20px;
+    font-family: "Evolventa";
+    font-size:20px;
+    font-weight:400;
+}
