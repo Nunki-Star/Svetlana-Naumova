@@ -185,7 +185,6 @@ div img[src*="line"]{
 }
 
 .right_block div p{
-    
     margin-left:10px
 }
 
@@ -196,7 +195,6 @@ div img[src*="line"]{
 
 .cargo img[src*="cargo"]{
    width:100%
-   
 }
 
 .cargo div{
@@ -204,8 +202,6 @@ div img[src*="line"]{
     background-color: white;
     margin-top: -100px;
     width:85%;
-    
-    
 }
 
 .cargo div p{
@@ -221,12 +217,13 @@ div img[src*="line"]{
     display:flex;
     flex-direction: row;
     justify-content:start
-    
 }
+
 .offer div.left_offer div.example{
     display:flex;
     flex-direction:row
 }
+
 .offer div.left_offer div.example div.icons_offer div{
     display:flex;
     flex-direction:row;
@@ -248,9 +245,11 @@ div img[src*="line"]{
     font-weight:400;
     margin-top:25px;
 }
+
 div.icons_offer div p:last-child{
     margin-left:15px
 }
+
 .example{
     margin-top:40px
 }
@@ -333,5 +332,37 @@ img[src*="btn_black"]{
     font-family: "Evolventa";
     font-size:18px;
     font-weight:700;
+}
+.price_count{
+    margin-top:200px
+}
+
+.price_count div  img[src*="main3"]{
+   width:100%;
+   background-color: aqua;
    
+}
+.relative{
+    position:relative;
+    
+
+}
+.absolute{
+    position:relative;
+    top:-170px;
+    width:85%;
+    background-color: white;
+}
+
+    
+
+.price_count div p{
+    padding-left:100px;
+    margin-right:101px;
+    font-family: "Evolventa";
+    font-size:56px;
+    font-weight:700;
+    margin-top:100px;
+   
+
 }
