@@ -494,3 +494,14 @@ img[src*="btn_black"]{
     background-color: red;
     padding-top:30px
 }
+
+.footer_main{
+    display:flex;
+    flex-direction: row;
+}
+
+.footer_main div.fm_left{
+    display:flex;
+    flex-direction: row;
+    color:white
+}
