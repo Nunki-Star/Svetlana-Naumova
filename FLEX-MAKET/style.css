@@ -10,8 +10,15 @@
 .header{
    background-image:url(pics/main_image.png);
    height:100vh;
-   
 }
+ 
+h3{
+    font-family: "Evolventa";
+    font-size:56px;
+    font-weight:700;
+}
+
+
 .header > div{
    padding-top:32px;
    padding-left: 40px;
@@ -435,4 +442,55 @@ img[src*="btn_black"]{
     font-family: "Evolventa";
     font-size:20px;
     font-weight:400;
+}
+
+.clients{
+    display: flex;
+    flex-direction: row;
+}
+
+.footer{
+    height:816px;
+    width:100%;
+    background-color: black;
+    margin-top:100px;
+    padding-left:140px
+}
+
+.footer div.footer_head{
+    padding-top:48px;
+    display:flex;
+    flex-direction: row;;
+    justify-content: space-between;
+}
+
+.footer div.footer_head div.fh_left div {
+    background-color: pink;
+    font-family: "Evolventa";
+    font-size:20px;
+    font-weight:700;
+}
+
+.footer div.footer_head div.fh_left div p:nth-child(n+2){
+    background-color: blue;
+    padding-top:30px
+}
+
+.fh_left{
+    display: flex;
+    flex-direction: row;
+    color:white
+}
+
+.fh_right{
+    color:white;
+    padding-right: 100px;
+    font-family: "Evolventa";
+    font-size:20px;
+    font-weight:700;
+}
+
+.footer div.footer_head div.fh_right div p:nth-child(n+2){
+    background-color: red;
+    padding-top:30px
 }
