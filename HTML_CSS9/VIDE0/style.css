@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.head p{
+    font-family: 'Lucida Sans', 
+    'Lucida Sans Regular', 
+    'Lucida Grande', 
+    'Lucida Sans Unicode', 
+    Geneva, 
+    Verdana, 
+    sans-serif;
+    margin-top:30px;
+    padding-bottom:25px;
+    margin-left:30px
+}
+#element{
+    margin-left:25px
+}
+.main{
+    
+    width:800px;;
+    background-color: lightgoldenrodyellow;
+    overflow-y:scroll;
+    background-color: lightskyblue;
+    height:500px;
+    background-image: url(video/signoff.jpeg);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    
+}
+
+.main div{
+    margin-top:15px
+}
+.main div a{
+    font-family: 'Lucida Sans', 
+    'Lucida Sans Regular', 
+    'Lucida Grande', 
+    'Lucida Sans Unicode', 
+    Geneva, 
+    Verdana, 
+    sans-serif;
+    color:beige;
+    padding-top:10px;
+    padding-bottom:10px
+}
+
+#element div.main div{
+    margin-left:400px
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: red;
+}
