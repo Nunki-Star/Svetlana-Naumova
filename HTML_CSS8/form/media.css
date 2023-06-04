@@ -9,10 +9,13 @@
         margin-left:35px;
         
     }
+    p{
+        
+    }
     .enter-input {
         float:none;
         height: 52px;
-        padding: 10px 30px;
+        padding: 10px 20px;
         width: 100%;
     }
     div label{
@@ -25,15 +28,24 @@
     
     }
     form div{
-       
-        background-color:violet;
+       background-color:violet;
         
     }
 
     span{
-        background-color: blue;
+        background-color: lightcyan;
         display:block;
+    }
+    .opts{
+        background-color: springgreen;
+        display:block
+    }
+    .adapt{
+        background-color: gold;
+        display: block;
         
-      
+        padding: 10px 30px;
+        width: 100%;
+        
     }
 }
