@@ -6,54 +6,97 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
-    <div>
-        <p>To publish your article, kindly fill up the below form:</p>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    .wide {
+        overflow: hidden;
+    }
+    .enter-input {
        
-        <form action="http://fe.it-academy.by/TestForm.php" method="get">
-            <div style="width:200px; float:left">
-                <label for="a_title">
-                    Article title
-                </label>
-            </div> 
-            <div style="float:left;">  
-                <input type="text" style="width:100%">
-            </div>
-                <div style="clear:both"></div>
-        
-    
-           <div style="width:200px; float:left;">
-            <label for="heading">
-                Heading
-            </label>
-           </div>
-           <select>
-                <option>
-                    programming
-                </option>
-                <option>
-                    graphics and design
-                </option>
-                <option>
-                    computer technology
-                </option>
-           </select>
-           <div>
-                <div style="clear:both"></div>
+        display: block;
+        height: 52px;
+        padding: 10px 30px;
+        width: 100%;
+    }
+    .label-settings{
+        float:left;
+        width:200px;
+    }
 
-            <div style="width:200px; float:left">
-                <label for="piblication">Publicaion</label>
+    .wide{
+        margin-top:20px;
+    }
+    div:nth-child(2){
+        
+        margin-left: 30px;
+    }
+    div:nth-child(3){
+        
+        margin-top:20px;
+        margin-left:30px
+    }
+    div:nth-child(4){
+        
+        margin-top:20px;
+        margin-left:30px
+    }
+    div:nth-child(5){
+       
+        margin-top:20px;
+        margin-left:30px
+    }
+    div:nth-child(6){
+       
+        margin-top:20px;
+        margin-left:30px
+    }
+</style>
+<body>
+    <form action="http://fe.it-academy.by/TestForm.php" method="get">
+        <div style="margin-left:30px; margin-top:30px">
+            <p>To publish your article, kindly fill up the below form:</p>
+        </div>
+        <div>
+            <label type="label"  style="float:left;width:200px">Article Title</label>
+            <div class="wide">
+                <input class="enter-input" type=search name="focus" required placeholder="enter the title here">
             </div>
-            
+        </div>
+        <div>
+            <label type="label"  style="float:left;width:200px">Heading</label>
+            <select name="heading">
+                <option value="programming">programming</option>
+                <option value="graphics_and_design">graphics and design</option>
+                <option value="computer_technology">computer technology</option>
+            </select>
+        </div>
+        <div>
+            <label type="label"  style="float:left;width:200px">Publication</label>
             <div>
-                <input type="radio" name="publication" value="1">website
-                <input type="radio" name="publication" value="1">magazine
-                <input type="radio" name="publication" value="1">website and magazine
+                <input type="radio" name="publication" value="website">website
+                <input type="radio" name="publication" value="magazine">magazine
+                <input type="radio" name="publication" value="website_and_magazine">website and magazine
             </div>
-
-                <div style="clear:both"></div>
-        
-
-    </div>
+        </div>
+        <div>
+            <label type="label"  style="float:left;width:200px">Allow comments:</label>
+            <div>
+                <input type="checkbox" name="allow_comments">
+            </div>
+        </div>
+        <div>
+            <div style="float:left; width:200px">
+                <label type="label"  style="float:left;width:200px">Text of your article</label>
+            </div>
+            <div>
+                <textarea name="textofarticle" rows="5" style="width:100%; margin-left:20px"></textarea>
+            </div>
+        </div>
+    </form>
 </body>
 </html>
