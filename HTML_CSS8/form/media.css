@@ -15,7 +15,7 @@
         padding: 10px 30px;
         width: 100%;
     }
-    label{
+    div label{
         overflow:hidden;
         background-color: aquamarine;
         float:none;
