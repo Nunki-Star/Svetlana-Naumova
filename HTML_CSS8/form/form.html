@@ -17,12 +17,12 @@
         overflow: hidden;
     }
     .enter-input {
-       
-        display: block;
+       display: block;
         height: 52px;
         padding: 10px 30px;
         width: 100%;
     }
+
     .label-settings{
         float:left;
         width:200px;
@@ -55,10 +55,16 @@
         margin-top:20px;
         margin-left:30px
     }
+    .text_area{
+        display: block;
+        resize:vertical;
+        width: 100%;
+    }
 </style>
 <body>
+    <div style="margin-right:20px">
     <form action="http://fe.it-academy.by/TestForm.php" method="get">
-        <div style="margin-left:30px; margin-top:30px">
+        <div style="margin-left:30px; margin-top:30px;">
             <p>To publish your article, kindly fill up the below form:</p>
         </div>
         <div>
@@ -89,14 +95,15 @@
                 <input type="checkbox" name="allow_comments">
             </div>
         </div>
+
         <div>
-            <div style="float:left; width:200px">
-                <label type="label"  style="float:left;width:200px">Text of your article</label>
-            </div>
-            <div>
-                <textarea name="textofarticle" rows="5" style="width:100%; margin-left:20px"></textarea>
+            <label type="label"  style="float:left;width:200px">Text of your publication</label>
+            <div class="wide">
+                <textarea class="text_area" required placeholder="enter your puclication here" rows="7" cols="auto" ></textarea>
             </div>
         </div>
+       
     </form>
+    </div>
 </body>
 </html>
