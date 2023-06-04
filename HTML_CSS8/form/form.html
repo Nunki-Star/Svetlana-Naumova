@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="media.css">
 </head>
 <style>
     *{
@@ -17,16 +18,16 @@
         overflow: hidden;
     }
     .enter-input {
-       display: block;
+        display: block;
         height: 52px;
         padding: 10px 30px;
         width: 100%;
     }
 
-    .label-settings{
+    /*.label-settings{
         float:left;
         width:200px;
-    }
+    }*/
 
     .wide{
         margin-top:20px;
@@ -63,50 +64,67 @@
         resize:vertical;
         width: 100%;
     }
+    label{
+        float:left;
+        width:200px;
+        background-color: pink;
+    }
+    form div{
+        margin-left:30px; 
+        margin-top:30px;
+    }
 </style>
 <body>
-    <div style="margin-right:20px">
+    <div style="margin-right:20px" class="main">
     <form action="http://fe.it-academy.by/TestForm.php" method="get">
-        <div style="margin-left:30px; margin-top:30px;">
+        <div>
             <p>To publish your article, kindly fill up the below form:</p>
         </div>
+
         <div>
-            <label type="label"  style="float:left;width:200px">Article Title</label>
+            <label type="label">Article Title</label>
             <div class="wide">
                 <input class="enter-input" type=search name="article_title" required placeholder="enter the title of an article here">
             </div>
         </div>
+
+
         <div>
-            <label type="label"  style="float:left;width:200px">Heading</label>
+            <label type="label">Heading</label>
             <select name="heading">
                 <option value="programming">programming</option>
                 <option value="graphics_and_design">graphics and design</option>
                 <option value="computer_technology">computer technology</option>
             </select>
         </div>
+
+
         <div>
-            <label type="label"  style="float:left;width:200px">Publication</label>
-            <div>
+            <label type="label">Publication</label>
+            <div class="radiobutton">
                 <input type="radio" name="publication" value="website">website
                 <input type="radio" name="publication" value="magazine">magazine
                 <input type="radio" name="publication" value="website_and_magazine">website and magazine
             </div>
         </div>
+
+
         <div>
-            <label type="label"  style="float:left;width:200px">Allow comments:</label>
+            <label type="label"">Allow comments:</label>
             <div>
                 <input type="checkbox" name="allow_comments">
             </div>
         </div>
 
         <div>
-            <label type="label"  style="float:left;width:200px">Text of your publication</label>
+            <label type="label">Text of your publication</label>
             <div class="wide_area">
                 <textarea name="text_of_article" class="text_area" required placeholder="enter text of your arcticle here" rows="7" cols="auto" ></textarea>
             </div>
         </div>
+
         <div style="margin-left:30px; margin-top:30px">
-            <input type="submit" value="send an article">
+            <input type="submit" value="send an article" style="background-color:pink">
         </div>
        
     </form>

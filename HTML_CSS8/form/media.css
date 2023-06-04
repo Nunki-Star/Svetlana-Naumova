@@ -1,0 +1,37 @@
+@media all and (max-width:580px){
+    body{
+        background-color: lightskyblue;
+    }
+    .main form .label_settings{
+        float:none;
+        width:200px;
+        background-color: yellow;
+        margin-left:35px;
+        
+    }
+    .enter-input {
+        float:none;
+        height: 52px;
+        padding: 10px 30px;
+        width: 100%;
+    }
+    label{
+        overflow:hidden;
+        background-color: aquamarine;
+        float:none;
+        margin-left:35px;
+        margin-bottom:10px;
+        
+    
+    }
+    form div{
+       
+        background-color:violet;
+        
+    }
+
+    .radiobutton{
+        background-color: blue;
+      
+    }
+}
