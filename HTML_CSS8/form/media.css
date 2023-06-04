@@ -30,8 +30,10 @@
         
     }
 
-    .radiobutton{
+    span{
         background-color: blue;
+        display:block;
+        
       
     }
 }
