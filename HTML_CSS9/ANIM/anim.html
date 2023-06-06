@@ -12,14 +12,30 @@
             box-sizing: border-box;
         }
         .content_circle{
-            width:100px;
-            height:100px;
+            width:300px;
+            height:300px;
             background-color: turquoise;
             border-radius: 50%;
             position:relative;
             left:0;
             margin-left:50px;
-            margin-top:50px
+            margin-top:50px;
+            animation-name: turquoise_circle;
+            animation-duration: 3s;
+            animation-timing-function: ;
+        }
+        @keyframes turquoise_circle{
+            from{                           /*from 0%*/
+                left:0;
+            }
+            50%{
+                left:50%;
+                background-color: lightgoldenrodyellow;
+            }
+            to{                              /*to 100%*/
+                left:100%;
+                background-color: pink;
+            }
         }
     </style>
 </head>
