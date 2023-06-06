@@ -25,17 +25,15 @@
             left:0;
             margin-top:50px;
             margin-bottom: 50px;
-        }
-    
-        
-        /*.wrapper:hover .content_circle{
-            animation-name: turquoise_circle;
+            animation-name:turquoise_circle;
             animation-duration: 3s;
             animation-timing-function:linear;
             animation-iteration-count: infinite;
             animation-direction:alternate;
-            
-        }*/
+        }
+    
+        
+        
 
         .content_heart{
             position: relative;
@@ -70,42 +68,24 @@
         }
         
         .content_heart:after {
-        left: 0;
-        transform: rotate(45deg);
-        transform-origin: 100% 100%;
+            left: 0;
+            transform: rotate(45deg);
+            transform-origin: 100% 100%;
         }
 
-
-        /*.wrapper:hover .content_heart{
-            
-            animation-name: red_heart;
+        .content__heartBeat{
+            background-color:skyblue
+        }
+        .content__heartBeat:hover .content_heart{
+            animation:jello;
+            animation-name:red_heart;
             animation-duration: 5s;
-            animation-timing-function:linear;
+            animation-timing-function:ease-in;
             animation-iteration-count: infinite;
             animation-direction:alternate;
-            
-            
-            }
-            */
-            
-            
-        
-            @keyframes red_heart{
-                from{
-                    left:0%
-                }
-                50%{
-                    left:50%;
-                    animation:animation__heartBeat
-                }
-                
-                100%{
-                    left:100%;
-                   
-                }
-            }
+        }
 
-            @keyframes turquoise_circle{
+        @keyframes turquoise_circle{
                 0%{                           /*from 0%*/
                     left:0;
                 }
@@ -120,13 +100,26 @@
                 }                   
             }
 
+            @keyframes red_heart{
+                0%{
+                    left:0
+                }
+                50%{
+                    left:50%;
+                }
+                100%{
+                    left:100%;
+                   
+                }
+            }
+
         
         
         
     </style>
 </head>
 <body>
-    <div class="wrapper">
+    <div class="wrapper" style="background-color:lightgoldenrodyellow; height:100vh">
         <div class="content_linear">
             <div class="content_circle"></div>
         </div>
