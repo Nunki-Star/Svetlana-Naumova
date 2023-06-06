@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="animate.css" rel="stylesheet">
     <title>Animation</title>
     <style>
         *{
@@ -11,38 +12,118 @@
             padding: 0;
             box-sizing: border-box;
         }
+        
         .content_circle{
-            width:300px;
-            height:300px;
+            width:150px;
+            height:150px;
             background-color: turquoise;
             border-radius: 50%;
             position:relative;
             left:0;
-            margin-left:50px;
             margin-top:50px;
+            margin-bottom: 50px;
+        }
+    
+        
+        .wrapper:hover .content_circle{
             animation-name: turquoise_circle;
             animation-duration: 3s;
-            animation-timing-function: ;
+            animation-timing-function:linear;
+            animation-iteration-count: infinite;
+            animation-direction:alternate
         }
-        @keyframes turquoise_circle{
-            from{                           /*from 0%*/
-                left:0;
+
+        .content_heart{
+            position: relative;
+            width: 100px;
+            height: 90px;
+        }
+        
+        .content_heart:before{
+            position: absolute;
+            content: "";
+            left: 50px;
+            top: 0;
+            width: 50px;
+            height: 80px;
+            background: lightblue;
+            border-radius: 50px 50px 0 0;
+            transform: rotate(-45deg);
+            transform-origin: 0 100%;
+        }
+
+        .content_heart:after {
+            position: absolute;
+            content: "";
+            left: 50px;
+            top: 0;
+            width: 50px;
+            height: 80px;
+            background: red;
+            border-radius: 50px 50px 0 0;
+            transform: rotate(-45deg);
+            transform-origin: 0 100%;
+        }
+        
+        .content_heart:after {
+        left: 0;
+        transform: rotate(45deg);
+        transform-origin: 100% 100%;
+        }
+
+
+       /* .wrapper:hover .content_heart{
+            animation-name: turquoise_circle;
+            animation-duration: 5s;
+            animation-timing-function:ease-in-out;
+            animation-iteration-count: infinite;
+            animation-direction:alternate;
+            
+            
+        }*/
+            @keyframes red_heart{
+                from{
+                    left:0%
+                }
+                50%{
+                    left:50%;
+                    
+
+                }
+                100%{
+                    left:100%;
+                   
+                }
             }
-            50%{
-                left:50%;
-                background-color: lightgoldenrodyellow;
-            }
-            to{                              /*to 100%*/
-                left:100%;
-                background-color: pink;
+
+            @keyframes turquoise_circle{
+                0%{                           /*from 0%*/
+                    left:0;
+                }
+                50%{
+                    left:50%;
+                    border-radius: 0%;
+                }
+                100%{                              /*to 100%*/
+                    left:100%                    
             }
         }
+        
+        
     </style>
 </head>
 <body>
     <div class="wrapper">
-        <div class="content">
+        <div class="content_linear">
             <div class="content_circle"></div>
+        </div>
+
+        <div class="animate__jello">
+            <div class="content_heart">
+                <div>
+                    
+                </div>
+            </div>
         </div>
     </div>
 </body>
