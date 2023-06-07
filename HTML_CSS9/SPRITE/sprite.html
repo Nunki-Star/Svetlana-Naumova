@@ -10,16 +10,24 @@
     .sprite-container{
         height:100vh;
         display:flex;
-        align-items: center;
+        align-items:center;
     }
     .sprite_image{
-        height: 154px;
+        height: 310px;
+        width: 175px;
+        background: url("walking.png")
+        0px 0px;
+    }
+    @keyframes play{
+        100%{
+            background-position:918px;
+        }
     }
 </style>
 <body>
     <div class="sprite_container">
         <div class="sprite_image">
-            <img src="running_girl.png">
+           
         </div>
     </div>
 </body>
