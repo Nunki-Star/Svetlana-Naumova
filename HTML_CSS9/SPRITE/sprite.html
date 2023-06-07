@@ -15,12 +15,22 @@
     .sprite_image{
         height: 310px;
         width: 175px;
-        background: url("walking.png")
-        0px 0px;
+        background: url("walking.png") 0px 0px;
+        animation:play 0.8s steps(8) infinite,
+            step 10s linear infinite;
+        position:absolute;
+        left: 0;
+
+        
     }
-    @keyframes play{
+    @keyframes play {
         100%{
-            background-position:918px;
+            background-position:-1400px;
+        }
+    }
+    @keyframes step {
+        100%{
+            left:100%
         }
     }
 </style>
