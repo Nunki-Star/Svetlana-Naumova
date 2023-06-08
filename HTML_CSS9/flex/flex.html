@@ -19,12 +19,11 @@
         width:755px
     }
     .header h3{
-        color:blue; 
         font: 20px 'Onest';
         padding-top: 10px;
     }
     .main{
-        background:url(bgyellow.png); 
+        background-color:#eee697; 
         margin-top:-10px; 
         width:755px; 
         display:flex; 
@@ -49,8 +48,35 @@
 
     .main div.info{
         background: url(white.png); 
-        width:65%
+        width:65%;
+        background-color:red;
+       
     }
+    .main div.info > div{
+        background:url(ball.png); 
+        background-position:100% 100%; 
+        background-size:51px 51px; 
+        background-repeat: repeat-y;
+        
+    }
+
+    .main div.info > div h3{
+        background-color: yellow;
+        text-align: center;
+        margin: 10px 10px 10px 10px;
+        padding-top: 10px;
+        font: 20px 'hero'
+        }
+    .main div.info div{
+        background-color: aqua;
+    }    
+        
+    .main div.info div img[src*="team"]{
+        margin: 10px 10px 0 20px ;
+    } 
+
+
+
 </style>
 <body>
     
@@ -82,29 +108,22 @@
         </div>
         <div class="info">
 
-            <div  style="background:url(ball.png); 
-                       background-position:100% 100%; 
-                       background-size:51px 51px; 
-                       background-repeat: repeat-y;">
+            <div>
 
-                <h3 style="text-align: center;
-                        margin: 10px 10px 10px 10px;
-                        padding-top: 10px;
-                        font: 20px 'hero'">Футбол</h3>
-
-                <img src="team.png" alt="football team" title="football team" style="float: left; 
-                                                                                 margin: 10px 10px 0 20px ">
-   
-                <p style="margin-top: 20px; 
+                <h3>Футбол</h3>
+                <div style="display:flex; flex-direction:row; margin-bottom:20px">
+                    <img src="team.png" alt="football team" title="football team">
+    
+                    <p style="margin-top: 20px; 
                           margin-right: 10px; 
                           font: 15px 'Arial';">Футбол - командный вид спорта, в котором целью является забить мяч в ворота соперника ногами или другими частями тела (кроме рук) большее количество раз, чем
                                                 команда соперника.</p><br>
-             
-            <p style="margin-left: 20px;
-                    padding-bottom:10px;
-                    font: 15px 'Arial'">Есть 17 официальных правил игры, каждое из которых содержит список оговорок и руководящих принципов. Эти правила предназначены для применения на всех уровнях футбола, хотя есть некоторые изменения для таких групп, как юниоры, взрослые, женщины и люди с ограниченными физическими возможностями. Законы очень часто формулировались в общих чертах, которые позволяют упростить их применения в зависимости от
-                                        характера игры</p>
-            <div style="clear:both;">
+                </div>
+                    <p style="margin-left: 20px;
+                        padding-bottom:10px;
+                        font: 15px 'Arial'">Есть 17 официальных правил игры, каждое из которых содержит список оговорок и руководящих принципов. Эти правила предназначены для применения на всех уровнях футбола, хотя есть некоторые изменения для таких групп, как юниоры, взрослые, женщины и люди с ограниченными физическими возможностями. Законы очень часто формулировались в общих чертах, которые позволяют упростить их применения в зависимости от
+                                            характера игры</p>
+                
             </div>
         </div>
         </div>
