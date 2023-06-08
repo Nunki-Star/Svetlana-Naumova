@@ -18,20 +18,51 @@
         text-align: center;
         width:755px
     }
+    .header h3{
+        color:blue; 
+        font: 20px 'Onest';
+        padding-top: 10px;
+    }
+    .main{
+        background:url(bgyellow.png); 
+        margin-top:-10px; 
+        width:755px; 
+        display:flex; 
+        flex-direction: row; 
+        justify-content:space-between
+    }
+
+    .main div.list{
+        background-color: pink;
+        width:25%; 
+        padding-left:25px
+    }
+
+    .main div.list h4{
+        font-family:'Onest'; 
+        text-align: center; 
+        padding-top:20px
+    }
+    .main div.list ul{
+        padding-left:30px;
+    }
+
+    .main div.info{
+        background: url(white.png); 
+        width:65%
+    }
 </style>
 <body>
     
    <div class="header" >
-        <h3 style="color:blue; 
-                   font: 20px 'Onest';
-                   padding-top: 10px;">ПРИВЕТ УЧАСТНИКАМ СОРЕВНОВАНИЙ</h3>
+        <h3>ПРИВЕТ УЧАСТНИКАМ СОРЕВНОВАНИЙ</h3>
    </div>
 
 
-   <div style="background:url(bgyellow.png); margin-top:-10px; width:755px; display:flex; flex-direction: row; justify-content:space-between">
-        <div style="width:25%; padding-left:25px">
-            <h4 style="font-family:'Onest'; text-align: center; padding-top:20px">Виды спорта</h4>        
-            <ul style="padding-left:30px;">
+   <div class="main">
+        <div class="list">
+            <h4>Виды спорта</h4>        
+            <ul>
                 <li><a href="https://ru.wikipedia.org/wiki/Конькобежный_спорт" target="_blank">конькобежный
                     спорт</a></li>
                 <li><a href="https://ru.wikipedia.org/wiki/Биатлон" target="_blank">биатлон</a></li>
@@ -49,7 +80,7 @@
                 <li><a href="https://ru.wikipedia.org/wiki/Шашки" target="_blank">шашки</a></li>
             </ul>
         </div>
-        <div style="background: url(white.png); width:65%">
+        <div class="info">
 
             <div  style="background:url(ball.png); 
                        background-position:100% 100%; 
