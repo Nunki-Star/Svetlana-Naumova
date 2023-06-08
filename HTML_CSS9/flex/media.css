@@ -1,0 +1,41 @@
+@media all and (max-width:768px){
+    .header, .footer{
+        width: 570px;
+        background-color:#add8e6; 
+        height:51px;
+        text-align: center;
+        color:blue
+        
+        }
+    
+    .main{
+        display:flex;
+        flex-direction: column;
+        
+        width:570px;
+
+    }
+
+    .main div.info{
+        width:570px
+    }
+    .main div.list h4{
+        padding-bottom: 10px;;
+        text-align: center;;
+        width:570px
+    }    
+    .main div.list ul {
+        padding-bottom: 10px;;
+        text-align: center;;
+        width:570px
+    }
+   
+    .main div.list ul li{
+        list-style-type: none;
+    }
+
+}
+
+@media all and (max-width:580px){
+    
+}
