@@ -10,6 +10,7 @@
 .header{
    background-image:url(pics/main_image.png);
    height:100vh;
+   background-repeat: no-repeat;
 }
  
 h3{
@@ -111,10 +112,7 @@ img[src*="menu"]{
 
 .content_block{
     padding-left:40px;
-    padding-top:100px; 
     margin-left:100px;
-   
-    
 }
 
 div img[src*="line"]{
@@ -223,7 +221,7 @@ div img[src*="line"]{
     margin-top:80px;
     display:flex;
     flex-direction: row;
-    justify-content:start
+    justify-content:flex-end
 }
 
 .offer div.left_offer div.example{
