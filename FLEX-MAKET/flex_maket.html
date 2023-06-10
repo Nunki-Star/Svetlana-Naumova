@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Logistic company</title>
+    <title>Logistic company infosite</title>
     <link rel="stylesheet" href="style.css">
    
 </head>
@@ -62,8 +62,8 @@
 
     <div class="content_block">
         <div>
-            <h1>Вы занимаетесь бизнесом —<br>
-                мы занимаемся вашим грузом</h1>
+            <h2>Вы занимаетесь бизнесом —<br>
+                мы занимаемся вашим грузом</h3>
         </div>
     
         <div>
@@ -94,10 +94,10 @@
 
 
         <div>
-            <h1>
+            <h2>
                 RosLogistic —<br>
                 бесконечные возможности
-            </h1>
+            </h2>
         </div>
         <div>
             <img src="pics/line.png">
@@ -150,7 +150,7 @@
         <div class="cargo">
             <img src="pics/cargo.png">
             <div>
-                <p>Полностью берём <br>
+                <h2>Полностью берём <h2>
                    вопрос логистики на себя</p>
             </div>
             
@@ -211,16 +211,16 @@
             <img src="pics/btn_black.png">
         </div>
         <div class="services">
-            <p>Услуги</p>
+            <h2>Услуги</h2>
             <div>
                 <img src="pics/line.png">
             </div>
-            <div style="margin-top:80px" style="display:flex; flex-direction:row">
+            <div class="services1">
                 <img src="pics/service1.png">
                 <img src="pics/service2.png">
                 <img src="pics/service3.png">
             </div>
-            <div class="services2" style="display:flex; flex-direction:row">
+            <div class="services2" style="display:flex; flex-direction:row; justify-content:space-around">
                 <img src="pics/service4.png">
                 <img src="pics/add.png">
                 <img src="pics/service5.png">
@@ -228,8 +228,8 @@
         </div>
 
         <div class="personal_manager">
-            <p>Предоставляем <br>
-               персонального менеджера</p>
+            <h2>Предоставляем <br>
+               персонального менеджера</h2>
                <div>
                     <img src="pics/line.png">
                </div>
@@ -260,22 +260,94 @@
                 <img src="pics/main3.png">
             </div>
             <div class="top_info">
-                <p>Рассчитать стоимость</p>
+                <h2>Рассчитать стоимость</2>
             </div>
        </div> 
        <div>
             <img src="pics/line.png">
        </div>
 
-       <div class="fillupform">
-            <div class="left_side">
-                <p>Контанктные данные</p>
+        <div class="fillupform">
+           
+            <div class="left_side_form" style="width:700px">
+                
+                <form action="#">
+                    <h4 style="background-color:skyblue">Контактные данные</h4>
+                    <div style="display:flex; flex-direction:row; justify-content:space-around;">
+                        <div>
+                            <label>Контактное лицо*</label><br>
+                            <input type="text" name="fio" placeholder="ФИО"><br>
+                            <label>Телефон*</label><br>
+                            <input type="text" name="phone" placeholder="+7(___)___-__-__">
+                        </div>
+                        <div >
+                            <label>Наименование компании*</label><br>
+                            <input type="text" name="company_name" placeholder="Наименование компании"><br>
+                            <label>E-mail*</label><br>
+                            <input type="text" name="E-mail" placeholder="E-mail">
+                        </div>
+                    </div>
+                
+                    <h4>Информация о грузе</h4>
+                    <div style="display:flex; flex-direction:row; justify-content:space-between">
+                        <div >
+                            <label>Наименование груза*</label><br>
+                            <input type="text" name="cargo_type" placeholder="Наименование груза"><br>
+                        </div>
+                        <div>
+                            <label>Код ТНВЭД</label><br>
+                            <input type="text" name="codetnved" placeholder="Код ТНВЭД">
+                        </div>
+                    
+                    </div>
+                    <div style="display:flex; flex-direction:row; justify-content:space=around">
+                        <div>
+                            <label>Вес брутто</label><br>
+                            <input type="text" name="brutto" placeholder="Вес брутто"><br>
+                        </div>
+                        <div>
+                            <label>Вес нетто*</label><br>
+                            <input type="text" name="netto" placeholder="Вес нетто">
+                        </div>
+                        <div>
+                            <label>Условия INCOTERMS</label><br>
+                            <select name="incoterm_conditions">
+                                <option value="EXW">EXW</option>
+                                <option value="FCA">FCA</option>
+                                <option value="FAS">FAS</option>
+                                <option value="FOB">FOB</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div style="display:flex; flex-direction:row; justify-content:center">
+                       <div>
+                            <label>Страна отправления</label><br>
+                            <select name="departure_country">
+                                <option value="Росия">Росия</option>
+                                <option value="Беларусь">Беларусь</option>
+                                <option value="Китай">Китай</option>
+                                <option value="ОАЭ">ОАЭ</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label>Страна происхождения</label><br>
+                            <select name="country_of_origin">
+                                <option value="Росия">Росия</option>
+                                <option value="Беларусь">Беларусь</option>
+                                <option value="Китай">Китай</option>
+                                <option value="ОАЭ">ОАЭ</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div>
+                        <label>Адрес доставки*</label><br>
+                            <input type="text" name="delivery_aderess" placeholder="Адрес доставки">
+                    </div>
+                </form>
             </div>
-            <div cladd="right_side"></div>
         </div>
-
         <div class="goods">
-            <p>Работаем с любыми товарами</p>
+            <h2>Работаем с любыми товарами</h2>
         </div>
         <div>
             <img src="pics/line.png" style="margin-top:48px">
@@ -362,7 +434,7 @@
         </div>
         
         <div style="margin-top:101px">
-            <h3>Нам доверяют</h>
+            <h2>Нам доверяют</h2>
         </div> 
         
         <div>
@@ -379,7 +451,7 @@
             <img src="pics/main4.png" style="width:100%; margin-top:100px">
         </div>
         <div style="margin-top:100px">
-            <h3>Свяжитесь с нами</h3>
+            <h2>Свяжитесь с нами</h2>
         </div>
         <div>
             <img src="pics/line.png" style="margin-top:48px">

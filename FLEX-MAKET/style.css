@@ -23,16 +23,20 @@ h3{
 .header > div{
    padding-top:32px;
    padding-left: 40px;
+   
 
 }
 
 .head_header{
     display:flex;
     flex-direction:row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     
 }
 
+.header  div div.head_header div > img[src*="btn"]{
+    padding-right:100px;
+}
 .list_lang li{
    display:inline;
 }
@@ -69,10 +73,12 @@ h3{
     left:0; 
     height:100vh; 
     padding-left:20px; 
-    padding-right:20px
+    padding-right:20px;
+    
 }
 img[src*="menu"]{
     padding-top: 37.5px;
+    
 }
 
 .head_header div p:nth-child(1){
@@ -80,13 +86,15 @@ img[src*="menu"]{
     color:white; 
     font-weight:700; 
     font-size:37.03px; 
+   
     
 }
 .head_header div p:nth-child(2){
     font-family:Evolventa; 
     color:white; 
     font-weight:400;
-    font-size:14px
+    font-size:14px;
+    
 }
 .count_info div{
     
@@ -118,16 +126,21 @@ img[src*="menu"]{
 div img[src*="line"]{
      margin-top:50px
 }
-.content_block div h1{
+.content_block div h2{
     font-family:'Evolventa';
-    font-size:64px
+    font-size:64px;
+    margin-top:100px;
+    margin-bottom:50px;
+   
 }
 
 .deliv_options{
     margin-top:50px;
     display:flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding-right:100px
+    
 
 }
 .deliv_options div{
@@ -166,7 +179,8 @@ div img[src*="line"]{
     background-size:700px 300px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding-right: 100px;
 }
 
 .opportunities div.right_block p{
@@ -207,19 +221,13 @@ div img[src*="line"]{
     width:85%;
 }
 
-.cargo div p{
-    font-family: "Evolventa";
-    font-size:56px;
-    font-weight:700
-}
-
-
 
 .offer{
     margin-top:80px;
     display:flex;
     flex-direction: row;
-    justify-content:space-around
+    justify-content:space-between;
+    padding-right: 110px;
 }
 
 .offer div.left_offer div.example{
@@ -233,13 +241,15 @@ div img[src*="line"]{
     margin-top:25px;
     font-family: "Evolventa";
     font-size:20px;
-    font-weight:400
+    font-weight:400;
+    
 }
 
 .left_offer > p:first-child{
     font-family: "Evolventa";
     font-size:28px;
-    font-weight:700
+    font-weight:700;
+   
 }
 
 .left_offer > p:nth-child(2){
@@ -250,7 +260,8 @@ div img[src*="line"]{
 }
 
 div.icons_offer div p:last-child{
-    margin-left:15px
+    margin-left:15px;
+    
 }
 
 .example{
@@ -273,6 +284,9 @@ img[src*="btn_black"]{
 
 .services{
     margin-top:240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .services p{
@@ -280,19 +294,27 @@ img[src*="btn_black"]{
     font-size:56px;
     font-weight:700;
     margin-top:25px;
+    
 }
 
 .services img[src*="line"]{
     margin-top:48px
 }
 
-/*.services div:nth-child(3){
-    display:flex;
-    flex-direction:row;
-
-}*/
+.content_block div.services div.services1{
+    margin-top:80px; 
+    display:flex; 
+    flex-direction:row; 
+    justify-content: space-around;
+   
+    
+}
 
 .services2{
+    display:flex; 
+    flex-direction:row; 
+    justify-content:space-around;
+    margin-top: 30px;
     
     
 }
@@ -320,6 +342,8 @@ img[src*="btn_black"]{
     margin-top:80px;
     display:flex;
     flex-direction: row;
+    justify-content: space-between;
+    padding-right: 100px;
 
 }
 .manager_info div p:first-child{
@@ -342,13 +366,12 @@ img[src*="btn_black"]{
 
 .price_count div  img[src*="main3"]{
    width:100%;
-   background-color: aqua;
    
 }
     
 
 .top_info{
-    /*position:relative;*/
+    
     top:-170px;
     width:85%;
     background-color: white;
@@ -366,7 +389,6 @@ img[src*="btn_black"]{
 }
 
 .fillupform div.left_side >p{
-    background-color:yellow;
     margin-top:48px;
     font-family: "Evolventa";
     font-size:20px;
@@ -383,29 +405,29 @@ img[src*="btn_black"]{
 .lists_of_goods{
     display:flex;
     flex-direction: row;
+    justify-content: space-around;
     margin-top:98px
 }
 
 .left_goods{
     display:flex;
     flex-direction: row;
+
     
 }
 
 .lists_of_goods div.left_goods div.list1 div{
-    background-color: green;
     display:flex;
     flex-direction: row;
+    padding-right:50px
    
 }
 
 .lists_of_goods div.left_goods div.list1 div:nth-child(n+2){
-   background-color: yellow;
    margin-top:30px
 }
 .lists_of_goods div.left_goods div.list1 div p:nth-child(n+2){
-    background-color: aqua;
-    margin-top:20px
+   margin-top:20px
    
 }
 .lists_of_goods div.left_goods div.list1 div p{
@@ -418,18 +440,15 @@ img[src*="btn_black"]{
 /*list2*/
 
 .lists_of_goods div.left_goods div.list2 div{
-    background-color: blue;
     display:flex;
     flex-direction: row;
    
 }
 
 .lists_of_goods div.left_goods div.list2 div:nth-child(n+2){
-   background-color: red;
    margin-top:30px
 }
 .lists_of_goods div.left_goods div.list2 div p:nth-child(n+2){
-    background-color: pink;
     margin-top:20px
    
 }
@@ -461,21 +480,24 @@ img[src*="btn_black"]{
 }
 
 .footer div.footer_head div.fh_left div {
-    background-color: pink;
     font-family: "Evolventa";
     font-size:20px;
     font-weight:700;
 }
 
 .footer div.footer_head div.fh_left div p:nth-child(n+2){
-    background-color: blue;
     padding-top:30px
 }
 
 .fh_left{
     display: flex;
     flex-direction: row;
-    color:white
+    color:white;
+    
+}
+
+.fh_left div{
+    padding-right:30px
 }
 
 .fh_right{
@@ -487,8 +509,7 @@ img[src*="btn_black"]{
 }
 
 .footer div.footer_head div.fh_right div p:nth-child(n+2){
-    background-color: red;
-    padding-top:30px
+   padding-top:30px
 }
 
 .footer_main{
@@ -506,14 +527,14 @@ img[src*="btn_black"]{
     font-family: "Evolventa";
     font-size:18px;
     font-weight:700;
-    background-color: blueviolet;
+    
 
 
 }
 
 .footer_main div.fm_right{
     margin-right:100px;
-    background-color: bisque;
+    
     
 }
 
@@ -523,7 +544,6 @@ img[src*="btn_black"]{
     font-family: "Evolventa";
     font-size:20px;
     font-weight:400;
-    background-color: salmon;
     display:flex;
     flex-direction: row;
     justify-content: space-between;
@@ -531,7 +551,6 @@ img[src*="btn_black"]{
 }
 
 .footer_bottom div:last-child{
-    background-color: lightskyblue;
     display:flex;
     flex-direction: row;
     padding-right:100px
