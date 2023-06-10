@@ -166,7 +166,7 @@ div img[src*="line"]{
     background-size:700px 300px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     
    
 }
@@ -221,7 +221,7 @@ div img[src*="line"]{
     margin-top:80px;
     display:flex;
     flex-direction: row;
-    justify-content:flex-end
+    justify-content:space-around
 }
 
 .offer div.left_offer div.example{
