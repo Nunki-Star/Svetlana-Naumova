@@ -167,8 +167,6 @@ div img[src*="line"]{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    
-   
 }
 
 .opportunities div.right_block p{
@@ -295,8 +293,8 @@ img[src*="btn_black"]{
 }*/
 
 .services2{
-    background-color: antiquewhite;
-    margin-top: -120px;/*manual margin* непонятно как отреагируют имг на большом экране*/
+    
+    
 }
 
 .personal_manager{
