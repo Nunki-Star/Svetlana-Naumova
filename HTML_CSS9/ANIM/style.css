@@ -21,7 +21,7 @@ h1{
     height:150px;
     background-color: turquoise;
     border-radius: 50%;
-    border:orange dotted 30px;
+    border:springgreen dotted 75px;
     position:relative;
     left:0;
     margin-top:50px;
@@ -83,7 +83,7 @@ h1{
     animation:jello;
     animation-name:red_heart;
     animation-duration: 5s;
-    animation-timing-function:ease-in;
+    animation-timing-function:cubic-bezier(0.55, 0.055, 0.675, 0.19);
     animation-iteration-count: infinite;
     animation-direction:alternate;
 }
