@@ -269,49 +269,49 @@
 
         <div class="fillupform">
            
-            <div class="left_side_form" style="width:700px">
+            <div class="left_side_form">
                 
                 <form action="#">
-                    <h4 style="background-color:skyblue">Контактные данные</h4>
+                    <h4>Контактные данные</h4>
                     <div style="display:flex; flex-direction:row; justify-content:space-around;">
                         <div>
                             <label>Контактное лицо*</label><br>
-                            <input type="text" name="fio" placeholder="ФИО"><br>
+                            <input type="text" name="fio" placeholder="ФИО" style="border: 1px #CECECE solid; width:352px; height:58px"><br>
                             <label>Телефон*</label><br>
-                            <input type="text" name="phone" placeholder="+7(___)___-__-__">
+                            <input type="text" name="phone" placeholder="+7(___)___-__-__" style="border: 1px #CECECE solid; width:352px; height:58px">
                         </div>
                         <div >
                             <label>Наименование компании*</label><br>
-                            <input type="text" name="company_name" placeholder="Наименование компании"><br>
+                            <input type="text" name="company_name" placeholder="Наименование компании" style="border: 1px #CECECE solid; width:352px; height:58px"><br>
                             <label>E-mail*</label><br>
-                            <input type="text" name="E-mail" placeholder="E-mail">
+                            <input type="text" name="E-mail" placeholder="E-mail" style="border: 1px #CECECE solid; width:352px; height:58px">
                         </div>
                     </div>
                 
-                    <h4>Информация о грузе</h4>
+                    <h4 style="padding-top:20px">Информация о грузе</h4>
                     <div style="display:flex; flex-direction:row; justify-content:space-between">
                         <div >
                             <label>Наименование груза*</label><br>
-                            <input type="text" name="cargo_type" placeholder="Наименование груза"><br>
+                            <input type="text" name="cargo_type" placeholder="Наименование груза"  style="border: 1px #CECECE solid; width:444px; height:58px"><br>
                         </div>
                         <div>
                             <label>Код ТНВЭД</label><br>
-                            <input type="text" name="codetnved" placeholder="Код ТНВЭД">
+                            <input type="text" name="codetnved" placeholder="Код ТНВЭД" style="border: 1px #CECECE solid; width:260px; height:58px">
                         </div>
                     
                     </div>
-                    <div style="display:flex; flex-direction:row; justify-content:space=around">
+                    <div style="display:flex; flex-direction:row; justify-content:space-between">
                         <div>
                             <label>Вес брутто</label><br>
-                            <input type="text" name="brutto" placeholder="Вес брутто"><br>
+                            <input type="text" name="brutto" placeholder="Вес брутто" style="border: 1px #CECECE solid; width:229px; height:58px"><br>
                         </div>
                         <div>
                             <label>Вес нетто*</label><br>
-                            <input type="text" name="netto" placeholder="Вес нетто">
+                            <input type="text" name="netto" placeholder="Вес нетто" style="border: 1px #CECECE solid; width:229px; height:58px">
                         </div>
                         <div>
                             <label>Условия INCOTERMS</label><br>
-                            <select name="incoterm_conditions">
+                            <select name="incoterm_conditions" style="border: 1px #CECECE solid; width:229px; height:58px">
                                 <option value="EXW">EXW</option>
                                 <option value="FCA">FCA</option>
                                 <option value="FAS">FAS</option>
@@ -319,10 +319,10 @@
                             </select>
                         </div>
                     </div>
-                    <div style="display:flex; flex-direction:row; justify-content:center">
+                    <div style="display:flex; flex-direction:row; justify-content:space-between">
                        <div>
                             <label>Страна отправления</label><br>
-                            <select name="departure_country">
+                            <select name="departure_country" style="border: 1px #CECECE solid; width:352px; height:58px">
                                 <option value="Росия">Росия</option>
                                 <option value="Беларусь">Беларусь</option>
                                 <option value="Китай">Китай</option>
@@ -331,7 +331,7 @@
                         </div>
                         <div>
                             <label>Страна происхождения</label><br>
-                            <select name="country_of_origin">
+                            <select name="country_of_origin" style="border: 1px #CECECE solid; width:352px; height:58px">
                                 <option value="Росия">Росия</option>
                                 <option value="Беларусь">Беларусь</option>
                                 <option value="Китай">Китай</option>
@@ -341,9 +341,35 @@
                     </div>
                     <div>
                         <label>Адрес доставки*</label><br>
-                            <input type="text" name="delivery_aderess" placeholder="Адрес доставки">
+                            <input type="text" name="delivery_aderess" placeholder="Адрес доставки" style="border: 1px #CECECE solid; width:720px; height:58px">
                     </div>
+                    <div style="display:flex; flex-direction:row; justify-content:center">
+                        <div>
+                             <img src="pics/pin.png">
+                         </div>
+                         <div>
+                            <p>Прикрепить файл(Упаковочный листб Инвост итд)</p>
+                         </div>
+                             
+                     </div>
+                     <div>
+                        <p class="required">*Обязательное поле ввода</p>
+                     </div>
+                     <div>
+                        <img src="pics/btn_send.png">
+                     </div>
+                     <div style="display:flex; flex-direction:row; justify-content:center">
+                        <div>
+                            <img src="pics/checkbox.png">
+                        </div>
+                        <div class="personal_agreement">
+                            <p>Я принимаю правила политики конфиденциальности, и даю согласие на обработку своих персональных данных</p>
+                        </div>
+                     </div>
                 </form>
+            </div>
+            <div>
+                <img src="pics/image_form.png">
             </div>
         </div>
         <div class="goods">

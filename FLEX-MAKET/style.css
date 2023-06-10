@@ -283,7 +283,7 @@ img[src*="btn_black"]{
 }
 
 .services{
-    margin-top:240px;
+    margin-top:140px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -368,10 +368,55 @@ img[src*="btn_black"]{
    width:100%;
    
 }
+.fillupform{
+    margin-top:80px; 
+    display:flex; 
+    flex-direction:row; 
+    justify-content: space-between;
+    padding-right:100px
+} 
+
+.fillupform div.left_side_form div{
+    padding-top:10px
+}
+
+.fillupform div.left_side_form{
+    display:flex; 
+    flex-direction:column; 
+    
+}
+.fillupform div.left_side_form h4{
+    font-family: "Evolventa";
+    font-size:20px;
+    font-weight:900;
+}
+
+.fillupform div.left_side_form label{
+    font-family: "Evolventa";
+    font-size:18px;
+    font-weight:400;
+}
+.fillupform div.left_side_form div p{
+   font-family: "Evolventa";
+    font-size:18px;
+    font-weight:400;
+}
+
+.fillupform div.left_side_form form div p.required{
+    font-family: "Evolventa";
+    font-size:12px;
+    font-weight:400;
+}
+
+.fillupform div.left_side_form form div.personal_agreement p{
+    color: #888888;
+    font-family: "Evolventa";
+    font-size:12px;
+    font-weight:400;
     
 
+}
 .top_info{
-    
     top:-170px;
     width:85%;
     background-color: white;
