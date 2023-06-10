@@ -5,6 +5,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+.wrapper{
+    background-color:lightgoldenrodyellow; 
+    height:100vh
+}
 h1{
     font-family: 'Lucida Sans';
     color:skyblue;
@@ -17,6 +21,7 @@ h1{
     height:150px;
     background-color: turquoise;
     border-radius: 50%;
+    border:orange dotted 30px;
     position:relative;
     left:0;
     margin-top:50px;
@@ -70,7 +75,9 @@ h1{
 }
 
 .content__heartBeat{
-    background-color:skyblue
+    background-color:skyblue;
+    padding-top:50px;
+    padding-bottom:50px
 }
 .content__heartBeat:hover .content_heart{
     animation:jello;
@@ -89,6 +96,7 @@ h1{
             left:50%;
             border-radius: 0%;
             background-color: fuchsia;
+            border:pink dotted 5px
            
         }
         100%{                              /*to 100%*/
@@ -96,17 +104,17 @@ h1{
         }                   
     }
 
-    @keyframes red_heart{
-        0%{
-            left:0
-        }
-        50%{
-            left:50%;
-        }
-        100%{
-            left:100%;
+@keyframes red_heart{
+    0%{
+        left:0
+    }
+    50%{
+        left:50%;
+    }
+    100%{
+        left:100%;
            
-        }
+    }
     }
 
 
