@@ -1,5 +1,5 @@
 var yourName = prompt("Please enter you name")
-var surname = prompt("Please enter your fathers name")
+var surname = prompt("Please enter your surname name")
 var lastName = prompt("Please enter your last name")
 var yourAge = prompt("Please enter your age(ex. years old)")
 var maleGender = confirm("For male gender kindly click on 'confirm' btn")
