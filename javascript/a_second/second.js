@@ -8,11 +8,9 @@ var numberYears = Number(yourAge)
 var ageDays = numberYears * 365
 var infiveYears = numberYears + 5
 
-var retired = (maleGender == true) ? true :
-    (yourAge >= 63) ? "retired" : "not retired"
-
-var retired = (maleGender == false) ? maleGender :
-    (yourAge >= 58) ? "retired" : "not retired"
+var retired = (maleGender == true) ? (yourAge >= 63) ? "retired" : "not retired":
+    (maleGender == false) ? (yourAge >= 58) ? "retired" : "not retired"
+    
 
 alert("Your name is : " + infoName + '\n' +
       "Your age is : " + yourAge + '\n' +
