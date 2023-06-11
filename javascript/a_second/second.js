@@ -26,10 +26,13 @@ else{
     }
 }*/
 
-var retired = (maleGender==true) ? (yourGender = "male") ? (yourAge>=63) ? "You are retired" : "You are not retired": (yourGender ="female") ? (yourAge>=58) ? "You are retired" : "You are not retired"
+var yourGender = (maleGender == true) ? "male" : "female"
+var retiredMale = (yourGender=="male", yourAge>=63) ? "retired" : "not retired"
+var retiredFemale = (yourGender == "female", yourAge >=58) ? "retired" : "not retired"
+var retiredGender = (retiredMale == true) ? retiredMale : retiredFemale
+
 alert("Your name is : " + infoName + '\n' +
       "Your age is : " + yourAge + '\n' +
       "Your age is equal " + ageDays + " days" + '\n' +
       "In five years youll be " + infiveYears + '\n' +
-      "Your gender is " + yourGender + '\n'+
-      retired )
+      "Your gender is " + yourGender + '\n' + retiredGender)
