@@ -8,82 +8,144 @@
         
         }
     
-    .main{
-        display:grid;
-        grid-template-rows: 50%  50%;
-        width:570px;
+    
 
+    .main {
+       width:570px;
+       background-color: deeppink;
+       display:grid;
     }
+
+
+    .main div.list{
+        padding:20px 60px;
+        background-color: #eee697; 
+        }
 
     .main div.info{
-        width:570px
+        display:grid;
+        grid-template-columns: 1fr 2fr ;
+        font: 15px 'Arial';
+        
     }
-    .main div.list h4{
-        padding-bottom: 10px;;
+
+    .main{
+        background-image: url(ball.png);
+        background-repeat: repeat-y;
+        background-position:100% 100%; 
+        background-size:51px 51px; 
+    }
+
+    .main  div.info div:first-child{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        padding-top:20px;
+        padding-bottom:20px;
         text-align: center;
-        width:570px
-    }    
-    .main div.list ul {
-        padding-bottom: 10px;;
-        text-align: center;;
-        width:570px
+        font: 20px'hero';
+        background-color: darkslategrey;
     }
-   
+
+    .main div.info div:nth-child(2){
+        padding: 20px;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        text-align: center;
+        background-color: yellow;
+
+    }
+
+    .main div.info div:nth-child(3){
+        padding-top:20px;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        padding-left:20px;
+        padding-right:20p
+    }
+    .main div.info div:last-child{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        padding: 0px 20px 20px 20px
+    }
+
+    .main div.list h4 {
+        padding-bottom:40px;
+        font-family:'Onest'; 
+        background-color: aquamarine;
+
+    }
+    .main div.list li a {
+        color:black
+    }
+
     .main div.list ul li{
-        list-style-type: none;
+        padding:3px;
+        font: 15px 'Arial';
+        
     }
 
 }
 
-@media all and (max-width:580px){
-    .header, .footer{
-        width: 425px;
-        background-color:#add8e6; 
-        height:51px;
-        text-align: center;
-        color:blue
+    @media all and (max-width:580px){
+        .header, .footer{
+            width: 425px;
+            background-color:#add8e6; 
+            height:51px;
+            text-align: center;
+            color:blue
+            
+            }
         
+        .main{
+            background-color: deepskyblue;
+            width:425px;
+            display:grid;
+            grid-template-columns: 1fr;
+
+        }
+        .main div:first-child {
+            background-color: red;
+            order:2
+        }
+
+        .main div.info div:first-child{
+            background-color: green;
+            order:0
+        }
+    }
+/*
+        .main div.info{
+            width:425px
+        }
+        .main div.list h4{
+            padding-bottom: 10px;;
+            text-align: center;;
+            width:425px
+        }    
+        .main div.list ul {
+            padding-bottom: 10px;;
+            text-align: center;;
+            width:425px
         }
     
-    .main{
-        display:grid;
-        flex-direction: column-reverse;
+        .main div.list ul li{
+            list-style-type: none;
+        }
         
-        width:425px;
-
+        .main div.info div div{
+            display: flex;
+            flex-direction: column;
+        }
+        .main div.info div img[src*="team"]{
+            height:200px;
+            width:250px;
+            text-align: center;
+            margin-left:70px
+        }
+        .main div.info div >p.football{
+            margin-left:20px;
+            padding-top: 20px;
+            
+        }
     }
-
-    .main div.info{
-        width:425px
-    }
-    .main div.list h4{
-        padding-bottom: 10px;;
-        text-align: center;;
-        width:425px
-    }    
-    .main div.list ul {
-        padding-bottom: 10px;;
-        text-align: center;;
-        width:425px
-    }
-   
-    .main div.list ul li{
-        list-style-type: none;
-    }
-    
-    .main div.info div div{
-        display: flex;
-        flex-direction: column;
-    }
-    .main div.info div img[src*="team"]{
-        height:200px;
-        width:250px;
-        text-align: center;
-        margin-left:70px
-    }
-    .main div.info div >p.football{
-        margin-left:20px;
-        padding-top: 20px;
-        
-    }
-}
+*/

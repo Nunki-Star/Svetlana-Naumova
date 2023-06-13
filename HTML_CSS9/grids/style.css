@@ -15,7 +15,7 @@
     color:blue
 }
 .main{
-    background-color: orange;  /*#eee6978*/
+    background-color: white ;  /*#eee6978*/
     width:755px;
     display:grid; 
     grid-template-columns: 1fr 2fr ; 
@@ -33,97 +33,61 @@
     padding-top: 10px;
 }
 .main div.list{
-    padding-left:40px;
-    padding-top:20px
+    padding:20px 60px;
+    background-color: #eee697; 
     }
 
 .main div.info{
-    background-color: aqua;
     display:grid;
     grid-template-columns: 1fr 2fr ;
+    font: 15px 'Arial';
     
 }
 
+.main{
+    background-image: url(ball.png);
+    background-repeat: repeat-y;
+    background-position:100% 100%; 
+    background-size:51px 51px; 
+}
+
 .main  div.info div:first-child{
-    background-color: purple;
-    grid-column-start: 1;
+   grid-column-start: 1;
     grid-column-end: 3;
     padding-top:20px;
     padding-bottom:20px;
     text-align: center;
+    font: 20px'hero'
 }
 
 .main div.info div:nth-child(2){
-    background-color: red;
+   padding: 20px;
 }
 
+.main div.info div:nth-child(3){
+    padding-top:20px;
+    
+}
 .main div.info div:last-child{
-    background-color: chocolate;
     grid-column-start: 1;
     grid-column-end: 3;
-    padding:20px;
-
+    padding: 0px 20px 20px 20px
 }
-/*.
 
-.main div.list h4{
+.main div.list h4 {
+    padding-bottom:40px;
     font-family:'Onest'; 
-    padding-left:100px;
-    padding-top:20px
+    background-color: aquamarine;
+
 }
-.main div.list ul{
-    padding-left:30px;
-    background-color: skyblue;
-    padding-bottom: 20px;
-    padding-left: 70px;
+.main div.list li a {
+    color:black
 }
 
-.main div.info{
-    background: url(white.png); 
-    width:65%;
-   
-   
-}
-.main div.info > div{
-    background:url(ball.png); 
-    background-position:100% 100%; 
-    background-size:51px 51px; 
-    background-repeat: repeat-y;
-    background-color: red;
-    padding-bottom: 60px;
-    
-}
-
-.main div.info > div h3{
-   
-    text-align: center;
-    margin: 0px 10px 10px 10px;
-    padding-top: 10px;
-    font: 20px 'hero'
-    }
-.main div.info  div p:last-child{
-    padding-top: 10px;
-    margin-left: 20px;
+.main div.list ul li{
+    padding:3px;
     font: 15px 'Arial';
-    padding-bottom: 10px;
+    
 }
 
-.main div.info div div{
-    display:grid; 
-    grid-template-columns: 1fr 1fr;
-   
-}    
-.main div.info div div {
-    
-    margin-top: 20px; 
-    margin-right: 10px; 
-    font: 15px 'Arial';
-}
-.main div.info div img[src*="team"]{
-    margin: 10px 10px 0 20px ;
-    
-} 
 
-
-
-}*/
