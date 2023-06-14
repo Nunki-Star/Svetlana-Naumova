@@ -9,6 +9,12 @@ body{
     
 }
 
+header{
+    background-image:url(../pics/ellipse_orange.png), url(../pics/Ellipse_blue.png); 
+    background-position: 0% 0%, 100% 100%; 
+    background-repeat: no-repeat, no-repeat;
+    padding-bottom:100px
+}
 
 header nav{
     display:flex;
@@ -47,10 +53,28 @@ header div.header_info{
     padding-right:120px;
     padding-left:120px;
     display:flex;
+    flex-direction: row;
+    justify-content: space-between;
     margin-top:109px
 }
-    
 
+.header_info div.header_info_content div.third{
+    margin-top:100px
+}
+
+.header_info div.header_info_content div.third form input:first-child{
+    background-color: yellow;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border:none;
+    appearance: none;
+    background-color: transparent;
+    border-bottom: solid grey 1px;
+    padding-bottom: 10px;
+    margin: 0;
+    box-sizing: border-box;
+    font-size:16px
+}
 
 header div.header_info div.header_info_content div.first{
     font-size:80px;
@@ -116,9 +140,53 @@ header div.header_info div.header_info_content div.second div p{
 
 .content{
     background-color: #000;
-    color:white
+    color:white;
+    padding-left:120px; 
+    padding-right:120px
 }
 
-.content div:nth-child(2) div div:nth-child(2) p:first-child{
-    background-color: deepskyblue;
+.header_graphics{
+    display:flex; 
+    flex-direction:column; 
+    margin-top:-20px; 
+   
+}
+
+.header_graphics div:first-child{
+    width:231px; 
+    height:220px; 
+    position:relative; 
+    margin-left:250px;
+    
+}
+
+.header_graphics div:nth-child(2){
+    width:419px; 
+    height:346px; 
+    position:absolute; 
+    margin-top:100px
+    
+}
+
+.header_graphics div:nth-child(3){
+    width:419px; 
+    height:119px; 
+    position:absolute; 
+    margin-top:470px
+}
+
+.content div.content_head div:first-child p{
+    font-size:56px; 
+    font-weight:600; 
+    padding-top:100px
+}
+.content div.content_head div:last-child{
+    margin-top:24px
+}
+.content div.content_head div:last-child p{
+    
+    color:#7E8492; 
+    font-size:18px; 
+    font-weight:500; 
+    line-height: 26px;
 }
