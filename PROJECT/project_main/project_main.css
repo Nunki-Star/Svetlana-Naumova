@@ -208,3 +208,11 @@ header div.header_info div.header_info_content div.second div p{
     font-weight:500; 
     color: #7E8492;
 }
+.revenue{
+    padding:100px 120px;
+}
+.revenue div div img[src*="Image1"]{
+    width:585px;
+    height:651px;
+
+}
