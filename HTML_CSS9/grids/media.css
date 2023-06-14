@@ -43,7 +43,7 @@
         padding-bottom:20px;
         text-align: center;
         font: 20px'hero';
-        background-color: darkslategrey;
+        
     }
 
     .main div.info div:nth-child(2){
@@ -51,7 +51,7 @@
         grid-column-start: 1;
         grid-column-end: 3;
         text-align: center;
-        background-color: yellow;
+        
 
     }
 
@@ -71,8 +71,7 @@
     .main div.list h4 {
         padding-bottom:40px;
         font-family:'Onest'; 
-        background-color: aquamarine;
-
+       
     }
     .main div.list li a {
         color:black
@@ -103,49 +102,21 @@
             grid-template-columns: 1fr;
 
         }
+        
         .main div:first-child {
-            background-color: deeppink;
-            order:2
+            background-color: dodgerblue;
+            order:2;
+            text-align:center
         }
 
+        .main div:first-child ul li{
+            list-style-type:none;
+        }
         .main div.info div:first-child{
-            background-color: green;
             order:0
         }
+
+        
     }
 /*
-        .main div.info{
-            width:425px
-        }
-        .main div.list h4{
-            padding-bottom: 10px;;
-            text-align: center;;
-            width:425px
-        }    
-        .main div.list ul {
-            padding-bottom: 10px;;
-            text-align: center;;
-            width:425px
-        }
-    
-        .main div.list ul li{
-            list-style-type: none;
-        }
-        
-        .main div.info div div{
-            display: flex;
-            flex-direction: column;
-        }
-        .main div.info div img[src*="team"]{
-            height:200px;
-            width:250px;
-            text-align: center;
-            margin-left:70px
-        }
-        .main div.info div >p.football{
-            margin-left:20px;
-            padding-top: 20px;
-            
-        }
-    }
-*/
+       

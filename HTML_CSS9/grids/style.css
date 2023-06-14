@@ -18,7 +18,10 @@
     background-color: white ;  /*#eee6978*/
     width:755px;
     display:grid; 
-    grid-template-columns: 1fr 2fr ; 
+    grid-template-columns: 1fr 2fr ;
+    background-image: url(balls.png); 
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
 }
 
 .footer{
@@ -77,8 +80,7 @@
 .main div.list h4 {
     padding-bottom:40px;
     font-family:'Onest'; 
-    background-color: aquamarine;
-
+   
 }
 .main div.list li a {
     color:black
