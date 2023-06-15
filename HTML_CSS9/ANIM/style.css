@@ -103,7 +103,8 @@ h1{
             border-radius: 0%;
             background-color: fuchsia;
             border:pink dotted 5px; 
-            scale:5
+            scale:5;
+            opacity:0
         }
         100%{                              /*to 100%*/
             left:100% 
