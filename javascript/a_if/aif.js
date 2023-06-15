@@ -4,7 +4,7 @@ var lastName = prompt("Please enter your last name")
 var yourAge = prompt("Please enter your age(ex. years old)")
 var maleGender = confirm("For male gender kindly click on 'confirm' btn")
 var infoName = lastName + ' ' + yourName + ' ' + surname
-var numberYears = Number(yourAge)
+var numberYears = parseInt(yourAge)
 var ageDays = numberYears * 365
 var infiveYears = numberYears + 5
 if (maleGender == true){
