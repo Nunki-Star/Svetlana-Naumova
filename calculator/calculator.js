@@ -38,7 +38,7 @@ var item2=calc(9, 9, "/")
 
 console.log(item1+item2)*/
 
-var x = null, y = null
+var x = null, y = null, operVariable = ""
 
 function getNumber(num){
     
@@ -49,4 +49,29 @@ function getNumber(num){
             y=num
         }
     }
+
+    function getOperation(oper){
+        operVariable = oper
+    }
+
+    function result(){
+        var EL = document.getElementById('result');
+
+        switch(operVariable){
+            case "+": 
+                EL.innerText = x+y;
+                break;
+            case "-": 
+                EL.innerText = (x-y).toString();
+                break;
+            case "*": 
+                EL.innerText = (x*y).toString();
+                break
+            case "/":
+                EL.innerText = (x/y).toString();
+                break
+    
+        }
+    }
+
 
