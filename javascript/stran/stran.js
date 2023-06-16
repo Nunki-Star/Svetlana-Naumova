@@ -1,22 +1,34 @@
+ var countryInfo={};
+ 
 
+function setInfo(countryName,capitalName) {
+        var countryName = prompt("Please enter the name of the country");
+        var capitalName = prompt("Please enter the capital of the country");
+        countryInfo[countryName] = capitalName;
+        console.log(countryInfo);
+    }
 
-var countryInfo = [country, capital]
+function getInfo(countryName) {
+    var сountryName=prompt('Enter the name of the country');
+if ( сountryName in countryInfo )
+    alert( 'country: ' + сountryName + ' capital: ' + countryInfo[сountryName] );
+else
+    alert( 'Unfortunately there is no any info about such a country as ' + сountryName + ' in the list!' );
 
-function setInfo(countryInfo){
-    var countryInfo = ['country', 'capital']
-    var askCountry = prompt("Please enter the country name:");
-    countryInfo[country] = 'askCountry';
-    var askCapital = prompt("Please enter the capital of country you've just entered");
-    countryInfo['capital'] = askCapital;
-    console.log(countryInfo.country, countryInfo.capital)
-    
 }
 
-function getInfo(countryInfo){
-    if(country in countryInfo){
-        prompt("country: ", country, "capital: ", capital)
-    }
-    else{
-        prompt("Unfortunately there is no such a country  in the list")
-    }
+function deleteInfo(countryName) {
+    var countryName = prompt("enter the name of the country");
+    delete countryInfo[countryName]
+    console.log(countryInfo)
 }
+
+function countriesList() {
+    for ( var i in countryInfo )
+       console.log('country: ' + i + '  capital: ' + countryInfo[i])
+}
+
+
+
+
+
