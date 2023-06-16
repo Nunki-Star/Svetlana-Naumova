@@ -3,3 +3,17 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+input{
+    width: 200px;
+    height:150px;
+    background-color: deepskyblue;
+    color:blanchedalmond;
+    font-size:15px;
+    padding-left:10px
+}
+
+body{
+    padding-left:30px;
+    padding-top:30px
+}
