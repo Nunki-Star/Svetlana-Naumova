@@ -9,6 +9,15 @@ body{
     
 }
 
+h2{
+    
+}
+
+h4{
+    font-size:32px; 
+    font-weight:600; 
+}
+
 header{
     background-image:url(../pics/ellipse_orange.png), url(../pics/Ellipse_blue.png); 
     background-position: 0% 0%, 100% 100%; 
@@ -199,7 +208,8 @@ header div.header_info div.header_info_content div.second div p{
 }
 
 .content div.content_info div div p{
-    margin-top:24px
+    margin-top:24px;
+    
 }
 
 .content div.content_info div div:nth-child(3) p{
@@ -207,8 +217,7 @@ header div.header_info div.header_info_content div.second div p{
     font-size:16px; 
     font-weight:500; 
     color: #7E8492;
-    background-color: deeppink;
-}
+}   
 .revenue{
     padding:100px 120px;
 }
@@ -218,9 +227,3 @@ header div.header_info div.header_info_content div.second div p{
 
 }
 
-h4{
-    color: #7E8492; 
-    font-size:18px; 
-    font-weight:500; 
-    line-height:32px 
-}

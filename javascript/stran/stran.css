@@ -10,7 +10,10 @@ input{
     background-color: deepskyblue;
     color:blanchedalmond;
     font-size:15px;
-    padding-left:10px
+    font-weight:400;
+    padding-left:10px;
+    border-radius: 20px;
+    
 }
 
 body{
