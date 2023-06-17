@@ -207,7 +207,9 @@ header div.header_info div.header_info_content div.second div p{
     margin-top:24px;
     
 }
-
+.content div.content_info  div:nth-child(2){
+    background-color: orangered;
+}
 .content div.content_info div div:nth-child(3) p{
     line-height: 26px;
     font-size:16px; 
@@ -216,10 +218,25 @@ header div.header_info div.header_info_content div.second div p{
 }   
 .revenue{
     padding:100px 120px;
+    display:flex; 
+    flex-direction:row; 
+    justify-content:space-between
+}
+
+.revenue div div{
+    background-color:yellow;
+    position:relative
 }
 .revenue div div img[src*="Image1"]{
     width:585px;
     height:651px;
-
 }
+
+.revenue div div div{
+    position:absolute; 
+    top:320px; 
+    left:570px
+}
+
+
 
