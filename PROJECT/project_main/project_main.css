@@ -10,7 +10,11 @@ body{
 }
 
 h2{
-    
+    font-size:56px; 
+    font-weight:600; 
+    padding-top:100px;
+    margin-bottom:24px;
+    background-color: #4c51f9;
 }
 
 h4{
@@ -185,14 +189,6 @@ header div.header_info div.header_info_content div.second div p{
     margin-top:470px
 }
 
-.content div.content_head div:first-child p{
-    font-size:56px; 
-    font-weight:600; 
-    padding-top:100px
-}
-.content div.content_head div:last-child{
-    margin-top:24px
-}
 .content div.content_head div:last-child p{
     
     color:#7E8492; 
