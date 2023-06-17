@@ -22,6 +22,13 @@ h4{
     font-weight:600; 
 }
 
+h6{
+    color:#7E8492; 
+    font-size:18px; 
+    font-weight:500; 
+    line-height:32px
+}
+
 header{
     background-image:url(../pics/ellipse_orange.png), url(../pics/Ellipse_blue.png); 
     background-position: 0% 0%, 100% 100%; 
@@ -238,19 +245,30 @@ header div.header_info div.header_info_content div.second div p{
 }
 
 .revenue div div.list_of_revenue{
-    background-color: chartreuse;
     margin-top:40px
 }
 
 .revenue div div.list_of_revenue div{
-    background-color: darkgreen;
     display:flex
 } 
 
 .revenue div div.list_of_revenue div p{
-    background-color: darkolivegreen;
     margin-left:19px; font-size:18px; 
     font-weight:500; 
     line-height:32px; 
     color:#1D1E25
+}
+
+.counter{
+    padding-left:120px; 
+    padding-right:120px; 
+    padding-bottom:80px; 
+    display:flex; 
+    flex-direction: row;
+}
+
+.counter div p{
+    background-color:yellow;
+    font-size:64px; 
+    font-weight:600
 }
