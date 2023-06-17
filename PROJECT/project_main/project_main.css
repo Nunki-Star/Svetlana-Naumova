@@ -190,7 +190,6 @@ header div.header_info div.header_info_content div.second div p{
 }
 
 .content div.content_head div:last-child p{
-    
     color:#7E8492; 
     font-size:18px; 
     font-weight:500; 
@@ -223,20 +222,35 @@ header div.header_info div.header_info_content div.second div p{
     justify-content:space-between
 }
 
-.revenue div div{
-    background-color:yellow;
-    position:relative
-}
+
 .revenue div div img[src*="Image1"]{
     width:585px;
     height:651px;
+
 }
 
-.revenue div div div{
-    position:absolute; 
-    top:320px; 
-    left:570px
+.revenue div div:nth-child(2)  p{
+    margin-top:24px;
+    font-size:18px; 
+    font-weight:600;
+    color:#7E8492;
+    
 }
 
+.revenue div div.list_of_revenue{
+    background-color: chartreuse;
+    margin-top:40px
+}
 
+.revenue div div.list_of_revenue div{
+    background-color: darkgreen;
+    display:flex
+} 
 
+.revenue div div.list_of_revenue div p{
+    background-color: darkolivegreen;
+    margin-left:19px; font-size:18px; 
+    font-weight:500; 
+    line-height:32px; 
+    color:#1D1E25
+}
