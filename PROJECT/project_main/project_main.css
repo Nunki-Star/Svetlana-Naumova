@@ -310,3 +310,41 @@ div img[src*="Line64"]{
     padding-bottom:86px;
 }
 
+.companies{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between ;
+    padding-left:120px;
+    padding-right:120px
+}
+
+.companies div.info_comp{
+    display:flex; 
+    flex-direction:column; 
+    padding-bottom:100px;
+}   
+.companies div:nth-child(2)>div:nth-child(2){
+    display:flex; 
+    flex-direction:row; 
+    justify-content:space-between;
+    
+}
+
+.companies div:nth-child(2)>div:first-of-type{
+    display:flex; 
+    flex-direction:row; 
+    justify-content:space-between
+}
+
+.companies div:nth-child(2)>div:nth-child(2) div:first-child{
+    margin-left:-25px
+}
+
+.companies div:nth-child(2)>div:first-of-type div:first-child{
+    margin-top:30px
+}
+
+.companies div:nth-child(2)>div:first-of-type div:nth-child(2){
+    margin-top:40px
+    
+}
