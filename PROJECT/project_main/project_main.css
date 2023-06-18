@@ -478,7 +478,7 @@ div.news>div:nth-child(2) div div:nth-child(2) {
 }
 
 .footer >div:nth-child(2){
-    padding-top:120px;
+    padding-top:80px;
     display:flex;
     flex-direction: row;
     justify-content: space-between;
