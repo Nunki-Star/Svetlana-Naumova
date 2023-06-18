@@ -12,14 +12,14 @@ body{
 h2{
     font-size:56px; 
     font-weight:600; 
-    
     margin-bottom:24px;
     
 }
 
 h4{
     font-size:32px; 
-    font-weight:600; 
+    font-weight:600;
+    line-height: 32px; 
 }
 
 h6{
@@ -350,5 +350,13 @@ div img[src*="Line64"]{
 }
 
 .advertise{
-    background-color: yellow;
+    padding-left:120px;
+    padding-top:100px
+}
+
+.customers_interaction{
+    padding-left:120px;
+    padding-top:80px;
+    display:flex;
+    flex-direction:row
 }
