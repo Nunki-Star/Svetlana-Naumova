@@ -424,3 +424,26 @@ div.news>div:nth-child(2) div div:nth-child(2) {
 .feedback div:nth-child(2) img[src*='“']{
     padding-top:40px
 }
+
+.feedback div:nth-child(2) div:nth-child(2) div img[src*="48095403"]{
+    padding-bottom:20px;
+    padding-left:20px;
+    
+}
+
+.feedback div:nth-child(2) div:nth-child(2) div:nth-child(3){
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.feedback div:nth-child(2) div:nth-child(2) div:nth-child(3) div.customer{
+    padding-left:24px
+}
+
+footer{
+    background-image:url(../pics/ellipse_orange.png), url(../pics/Ellipse_blue.png); 
+    background-position: 0% 0%, 100% 100%; 
+    background-repeat: no-repeat, no-repeat;
+    padding-bottom:100px
+}
