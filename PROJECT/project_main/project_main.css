@@ -393,10 +393,7 @@ div.news{
     padding-top:160px
 }
 
-div.news div:first-child{
-    text-align: center;
-    
-}
+
 div.news>div:nth-child(2){
     display:flex;
     justify-content: space-between;
@@ -408,4 +405,22 @@ div.news>div:nth-child(2) div div:nth-child(2) {
     justify-content:space-between;
     font-size: 14px;
     padding-bottom:16px
+}
+
+.feedback{
+    padding-top:160px
+}
+.feedback div:first-child{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    
+}
+
+.feedback div:first-child div h6{
+    padding-top:40px;
+}
+
+.feedback div:nth-child(2) img[src*='“']{
+    padding-top:40px
 }
