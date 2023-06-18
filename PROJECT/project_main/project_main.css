@@ -12,9 +12,9 @@ body{
 h2{
     font-size:56px; 
     font-weight:600; 
-    padding-top:100px;
+    
     margin-bottom:24px;
-    background-color: #4c51f9;
+    
 }
 
 h4{
@@ -166,6 +166,10 @@ header div.header_info div.header_info_content div.second div p{
     padding-bottom: 100px;
 }
 
+.content div.content_head{
+    padding-top:100px
+}
+
 .header_graphics{
     display:flex; 
     flex-direction:column; 
@@ -268,7 +272,41 @@ header div.header_info div.header_info_content div.second div p{
 }
 
 .counter div p{
-    background-color:yellow;
+    
     font-size:64px; 
     font-weight:600
 }
+
+.counter div:nth-child(n + 2){
+    margin-left:72px; 
+    margin-top:25px
+}
+
+.counter div:first-child{
+    margin-top:25px
+}
+
+.team_marketing{
+    padding-left:120px; 
+    padding-right:120px; 
+    padding-bottom:80px
+}
+
+ div.business_lift{
+    padding-left:120px; 
+    padding-right:120px; 
+    display:flex; 
+    flex-direction:row; 
+    justify-content: space-between;
+}
+
+div.business_lift h6{
+    padding-top:10px;
+
+}
+
+div img[src*="Line64"]{
+    padding-left:120px;
+    padding-bottom:86px;
+}
+
