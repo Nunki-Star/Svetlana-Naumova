@@ -8,7 +8,11 @@ body{
     font-family: Inter;
     
 }
+h1{
+    font-size:80px;
+    font-weight:700;
 
+}
 h2{
     font-size:56px; 
     font-weight:600; 
@@ -27,6 +31,15 @@ h6{
     font-size:18px; 
     font-weight:500; 
     line-height:32px
+}
+
+p{
+    font-size:16px;
+    color:#7E8492; 
+    font-weight:500; 
+    line-height:26px;
+    padding-top:24px
+
 }
 
 header{
@@ -200,6 +213,10 @@ header div.header_info div.header_info_content div.second div p{
     margin-top:470px
 }
 
+.content_info div div div img[src*="svg"]{
+    padding-bottom:29px
+}
+
 .content div.content_head div:last-child p{
     color:#7E8492; 
     font-size:18px; 
@@ -217,9 +234,7 @@ header div.header_info div.header_info_content div.second div p{
     margin-top:24px;
     
 }
-.content div.content_info  div:nth-child(2){
-    background-color: orangered;
-}
+
 .content div.content_info div div:nth-child(3) p{
     line-height: 26px;
     font-size:16px; 
@@ -256,8 +271,9 @@ header div.header_info div.header_info_content div.second div p{
     display:flex
 } 
 
-.revenue div div.list_of_revenue div p{
-    margin-left:19px; font-size:18px; 
+.revenue div div.list_of_revenue div h6{
+    margin-left:19px; 
+    font-size:18px; 
     font-weight:500; 
     line-height:32px; 
     color:#1D1E25
@@ -356,7 +372,40 @@ div img[src*="Line64"]{
 
 .customers_interaction{
     padding-left:120px;
+    padding-right:120px;
     padding-top:80px;
     display:flex;
-    flex-direction:row
+    flex-direction:row;
+    justify-content: space-between;
+
+}
+
+.customers_interaction div div:first-child>div:first-child{
+    padding-right:60px
+}
+.customers_interaction div div:nth-child(2) div:nth-child(2){
+    padding-left:60px
+}
+
+div.news{
+    padding-left:120px;
+    padding-right:120px;
+    padding-top:160px
+}
+
+div.news div:first-child{
+    text-align: center;
+    
+}
+div.news>div:nth-child(2){
+    display:flex;
+    justify-content: space-between;
+    padding-top:80px
+}
+div.news>div:nth-child(2) div div:nth-child(2) {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    font-size: 14px;
+    padding-bottom:16px
 }
