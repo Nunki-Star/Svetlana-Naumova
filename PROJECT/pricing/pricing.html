@@ -25,7 +25,7 @@
                 <a href="../pricing/pricing.css">Pricing</a>
             </div>
             <div>
-                <a href="../contact/"><img src="../svg/Contact.svg"></a>
+                <a href="../contact/contact.html"><img src="../svg/Contact.svg"></a>
             </div>
         </nav>
         <div class="content_head">
@@ -164,12 +164,12 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo nam necessitatibus quia architecto, voluptatibus sint quos ut soluta nobis! Eveniet soluta, doloremque amet consectetur eligendi beatae expedita facilis sed quibusdam?</p>
         </div>
 
-        <button class="accordion" style="font-size:24px; font-weight:600">How Secure Is My Date With Sans CRM</button>
+        <button class="accordion" style="font-size:24px; font-weight:600">How Secure Is My Date With Sans CRM?</button>
         <div class="panel">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         </div>
 
-        <button class="accordion" style="font-size:24px; font-weight:600">What Is The Uptime Guarantee</button>
+        <button class="accordion" style="font-size:24px; font-weight:600">What Is The Uptime Guarantee?</button>
         <div class="panel">
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, similique explicabo! Magni totam qui beatae accusantium officia quidem distinctio quos voluptatem natus neque? Impedit sunt pariatur odio, blanditiis delectus autem.</p>
         </div>
@@ -244,22 +244,24 @@
             <p>© Copyright 2023 All Rights Reserved</p>
         </div>
     </div>    
+   
     <script>
         var acc = document.getElementsByClassName("accordion");
         var i;
-        
+
         for (i = 0; i < acc.length; i++) {
-          acc[i].addEventListener("click", function() {
+        acc[i].addEventListener("click", function() {
             this.classList.toggle("active");
             var panel = this.nextElementSibling;
-            if (panel.style.display === "block") {
-              panel.style.display = "none";
+            if (panel.style.maxHeight) {
+            panel.style.maxHeight = null;
             } else {
-              panel.style.display = "block";
-            }
-          });
+            panel.style.maxHeight = panel.scrollHeight + "px";
+            } 
+        });
         }
-        </script>
+
+    </script>
         
    
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>

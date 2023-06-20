@@ -200,7 +200,7 @@ header nav div:nth-child(3) a{
     transition:2s
 }
 
-.cards div.card1 :hover h5{
+.cards div.card1:hover h5{
     color:white
 }
 
@@ -321,7 +321,7 @@ header nav div:nth-child(3) a{
     transition:2s
 }
 
-.card2 :hover h5{
+.card2:hover h5{
     color:white
 }
 
@@ -440,8 +440,8 @@ header nav div:nth-child(3) a{
     transition:2s
 }
 
-.card3 :hover h5{
-    background-color:#161A34;
+.card3:hover h5{
+    
     color:white;
    
 }
@@ -488,7 +488,11 @@ header nav div:nth-child(3) a{
     padding-right:120px;
     margin-top:80px
 }
-
+.accord{
+    padding-left:120px;
+    padding-right:120px;
+    padding-bottom:100px
+}
 .accordion {
     background-color: #eee;
     color: #444;
@@ -500,30 +504,19 @@ header nav div:nth-child(3) a{
     outline: none;
     font-size: 15px;
     transition: 0.4s;
-    font-family:Inter;
-
   }
   
   .active, .accordion:hover {
     background-color: #ccc;
-    transition: 2s; 
   }
   
   .panel {
     padding: 0 18px;
-    display: none;
     background-color: white;
+    max-height: 0;
     overflow: hidden;
+    transition: max-height 0.2s ease-out;
   }
-  
-  .accord{
-    padding-left:120px;
-    padding-right:120px;
-    margin-top:120px;
-    font-family:Inter
-  }
-
-
   .footer{
     background-color:#1D1E25;
     color:white;
