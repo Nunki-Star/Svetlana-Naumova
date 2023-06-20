@@ -9,7 +9,7 @@ body{
     
 }
 h1{
-    font-size:80px;
+    font-size:72px;
     font-weight:700;
 
 }
@@ -19,7 +19,11 @@ h2{
     margin-bottom:24px;
     
 }
-
+h5{
+    font-size:20px; 
+    font-weight:600;
+    color:#7E8492; 
+}
 h4{
     font-size:32px; 
     font-weight:600;
@@ -80,5 +84,50 @@ header nav div:nth-child(3){
 }
 header nav div:nth-child(3) a{
     color:black;
-   
+}
+
+header>div:nth-child(2){
+    margin-top:100px;
+    padding-left:120px;
+    padding-right:120px;
+}
+
+header>div:nth-child(3){
+    margin-top:100px;
+    padding-left:120px;
+    padding-right:120px;
+    display:flex;
+}
+
+header>div:nth-child(3) img[src*="69"]{
+    padding-right:40px;
+    margin-top:-70px
+}
+
+.activities_list{
+    margin-top:100px;
+    padding-left:120px;
+    padding-right:500px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.activities_list a:first-child {
+    text-decoration-color: black;
+    
+}
+
+.activities_list a:first-child p:first-child{
+    color:black
+}
+.activities_list a:nth-child(n+2){
+    
+    text-decoration: none;
+}
+
+header div:nth-child(5){
+    padding-left:120px;
+    background-color: orangered;
+    display:flex;
+    justify-content: space-between;
 }
