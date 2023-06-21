@@ -65,6 +65,8 @@ header nav div:first-child{
 header nav div:nth-child(2){
     padding-top:45px;
     margin-left:610px;
+    visibility:visible;
+    
 }
 
 header nav div:nth-child(2) a{
@@ -89,11 +91,14 @@ header div.header_info{
     display:flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top:109px
+    margin-top:10px;
+    
 }
 
 .header_info div.header_info_content div.third{
-    margin-top:100px
+    margin-top:100px;
+   
+    
 }
 .hamburger-menu{
     visibility:hidden
@@ -124,6 +129,7 @@ header div.header_info div.header_info_content div.second{
     font-weight: 600;
     display:flex;
     flex-direction: row;
+
 }
 
 header div.header_info div.header_info_content div.second div p{
@@ -177,8 +183,8 @@ header div.header_info div.header_info_content div.second div p{
 .content{
     background-color: #000;
     color:white;
-    padding-left:20px; 
-    padding-right:20px;
+    padding-left:120px; 
+    padding-right:120px;
     padding-bottom: 100px;
 }
 
@@ -298,7 +304,8 @@ header div.header_info div.header_info_content div.second div p{
 
 .counter div:nth-child(n + 2){
     margin-left:72px; 
-    margin-top:25px
+    margin-top:25px;
+    
 }
 
 .counter div:first-child{
@@ -341,6 +348,7 @@ div img[src*="Line64"]{
     display:flex; 
     flex-direction:column; 
     padding-bottom:100px;
+    
 }   
 .companies div:nth-child(2)>div:nth-child(2){
     display:flex; 
@@ -364,7 +372,7 @@ div img[src*="Line64"]{
 }
 
 .companies div:nth-child(2)>div:first-of-type div:nth-child(2){
-    margin-top:40px
+    margin-top:80px
     
 }
 
@@ -389,6 +397,19 @@ div img[src*="Line64"]{
 .customers_interaction div div:nth-child(2) div:nth-child(2){
     padding-left:60px
 }
+
+
+.customers_interaction>div:first-child>div:first-child{
+    background-color: yellow;
+    display:flex
+}
+
+.customers_interaction>div:first-child>div:nth-child(2){
+    background-color: red;
+    display:flex
+}
+
+
 
 div.news{
     padding-left:120px;
