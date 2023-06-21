@@ -95,7 +95,9 @@ header div.header_info{
 .header_info div.header_info_content div.third{
     margin-top:100px
 }
-
+.hamburger-menu{
+    visibility:hidden
+}
 .header_info div.header_info_content div.third form input:first-child{
     background-color: yellow;
     -webkit-appearance: none;
