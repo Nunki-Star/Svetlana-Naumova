@@ -38,7 +38,7 @@ p{
     color:#7E8492; 
     font-weight:500; 
     line-height:26px;
-    padding-top:24px
+    
 
 }
 
@@ -372,7 +372,7 @@ div img[src*="Line64"]{
 }
 
 .companies div:nth-child(2)>div:first-of-type div:nth-child(2){
-    margin-top:80px
+    margin-top:38px
     
 }
 
@@ -400,15 +400,27 @@ div img[src*="Line64"]{
 
 
 .customers_interaction>div:first-child>div:first-child{
-    background-color: yellow;
-    display:flex
+    
+    display:flex;
+    margin-bottom:56px
 }
 
 .customers_interaction>div:first-child>div:nth-child(2){
-    background-color: red;
+    
     display:flex
 }
 
+.customers_interaction>div:nth-child(2)>div:nth-child(1){
+    
+    display:flex;
+    
+}
+
+.customers_interaction>div:nth-child(2)>div:nth-child(2){
+    
+    display:flex;
+    padding-top:56px
+}
 
 
 div.news{
@@ -428,7 +440,8 @@ div.news>div:nth-child(2) div div:nth-child(2) {
     flex-direction:row;
     justify-content:space-between;
     font-size: 14px;
-    padding-bottom:16px
+    padding-bottom:16px;
+    
 }
 
 .feedback{
@@ -446,9 +459,11 @@ div.news>div:nth-child(2) div div:nth-child(2) {
 .feedback div:first-child div h6{
     padding-top:40px;
 }
-
+.customers_feedback{
+    padding-left:150px
+}
 .feedback div:nth-child(2) img[src*='“']{
-    padding-top:40px
+    padding-top:80px
 }
 
 .feedback div:nth-child(2) div:nth-child(2) div img[src*="48095403"]{
