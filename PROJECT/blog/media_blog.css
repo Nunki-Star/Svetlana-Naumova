@@ -55,7 +55,7 @@
     }
 
     header div.hamburger-menu{
-        visibility:visible
+        display:contents
     }
 
     #menu__toggle {
@@ -78,7 +78,7 @@
       .menu__btn {
         position: fixed;
         top: 41px;
-        left: 321px;
+        left: 700px;
         width: 26px;
         height: 26px;
         cursor: pointer;
