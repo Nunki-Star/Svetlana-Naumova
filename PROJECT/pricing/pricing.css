@@ -98,7 +98,9 @@ header nav div:nth-child(3) a{
    
 }
 
-
+.hamburger-menu{
+    visibility:hidden
+}
 
    
 .content_head{
