@@ -1,11 +1,11 @@
 @media all and (max-width:800px){
     .header, .footer{
-        width: 375px;
+        width: 395px;
         padding-left: 20px;
         padding-right:20px
     }
     body{
-        width:375px;
+        width:395px;
         
     }
 
@@ -333,7 +333,10 @@
   .footer>div:nth-child(4)>p{
       text-align: center;
       
-      
+  }
+
+  .footer div:first-child div:nth-child(2) div:nth-child(2) h4{
+    font-size: 18px;
   }
 
   .footer>div:nth-child(4)>p::after{
