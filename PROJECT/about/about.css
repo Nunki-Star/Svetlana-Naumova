@@ -44,7 +44,7 @@ p{
 
 
 header{
-    padding-bottom:100px
+    padding-bottom:0px
 }
 
 header nav{
@@ -74,7 +74,8 @@ header nav div:nth-child(2) a{
 }
 
 header nav div:nth-child(3){
-    padding-top:45px
+    padding-top:45px;
+    background-color: aqua;
 }
 header nav div:nth-child(3) a{
     color:black;
@@ -88,7 +89,9 @@ header div.header_info{
     justify-content: space-between;
     margin-top:109px
 }
-
+header div.hamburger-menu{
+    visibility:hidden
+}
 .content{
     padding-left:120px;
     padding-right:120px
