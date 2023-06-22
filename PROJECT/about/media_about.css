@@ -638,17 +638,7 @@ padding-right:50px
   flex-direction: column;
   padding-left:20px;
   padding-right:20px
-}
-
-
-
-
-
-
-
-
-
-  .footer >div:nth-child(2){
+}.footer >div:nth-child(2){
     padding-top:40px;
     display:none;
     flex-direction: column;
@@ -743,8 +733,5 @@ padding-right:50px
   .copyright{
       margin-top:50px
   }
-
-
-
 
 }
