@@ -85,7 +85,7 @@ header nav div:nth-child(2) a{
     font-size:16px;
     font-weight: 500;
     text-decoration: none;
-    padding-right:120px;
+    padding-right:20px;
     font-family: Inter;
     
 }
@@ -97,6 +97,13 @@ header nav div:nth-child(3) a{
     color:black;
    
 }
+
+
+
+   
+    
+
+
 
 .content_head{
     padding-left:120px;

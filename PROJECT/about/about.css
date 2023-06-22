@@ -75,7 +75,7 @@ header nav div:nth-child(2) a{
 
 header nav div:nth-child(3){
     padding-top:45px;
-    background-color: aqua;
+    
 }
 header nav div:nth-child(3) a{
     color:black;
@@ -93,7 +93,10 @@ header div.hamburger-menu{
     visibility:hidden
 }
 
-
+.content{
+    padding-left:120px;
+    padding-right:120px
+}
 .values{
     padding-left:120px;
     padding-top:135px;
@@ -178,6 +181,10 @@ div.values>div div.details{
     padding-left:120px;
     margin-top:85px;
     margin-bottom:160px
+}
+
+.divider_media{
+    display:none
 }
 
 .creators{

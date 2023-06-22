@@ -30,7 +30,7 @@
         background-image:url(../pics/ellipse_orange.png), url(../pics/Ellipse_blue.png); 
         background-position: 0% 0%, 100% 100%; 
         background-repeat: no-repeat, no-repeat;
-        padding-bottom:0px
+        padding-bottom:40px
     }
     header nav{
         display:column;
@@ -140,12 +140,12 @@
   
      }
 
-    .values{
-      margin-left:-55px;
-      padding-top:0px;
-      background-image: url(../svg/Ellipse\ 125.svg);
-      background-position: 0% 100%;
-      background-repeat: no-repeat;
+     .values{
+        margin-left:-55px;
+        padding-top: 9px;
+        background-image: url(../svg/Ellipse\ 125.svg);
+        background-position: 0% 100%;
+        background-repeat: no-repeat;
       }
 
 
@@ -163,12 +163,14 @@
 
     img[src*="Rectangle 37"]{
       width:335px;
-      height:246px
+      height:246px;
+      
     }
 
     .content{
       padding-left:20px;
-      padding-right:20px
+      padding-right:20px;
+      word-wrap: break-word;
   }
 
     .content div:nth-child(2) img[src*="Line 69"]{
@@ -177,8 +179,8 @@
 
     
     .values{
-      padding-left:80px;
-      padding-top:35px;
+      padding-left:20px;
+      padding-top:20px;
       background-image: url(../svg/Ellipse\ 125.svg);
       background-position: 0% 100%;
       background-repeat: no-repeat;
@@ -190,7 +192,74 @@
 
   }
 
-  
+  .ideas{
+    margin-top:40px;
+    display:flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-right:20px;
+    padding-left:20px;
+    word-wrap: break-word;
+  }
+
+  .ideas div:nth-child(1){
+    padding-left:30px;
+    word-wrap: break-word;
+  }
+
+  .ideas div:nth-child(2){
+    padding-left:30px;
+    word-wrap: break-word;
+  }
+
+  .devider{
+    display:none
+  }
+  .divider_media{
+    display:contents;
+    padding-left:40px
+  }
+
+  .creators{
+    padding-left:20px;
+    background-image: url(../svg/Ellipse\ 124.svg);
+    background-position: 100% 0%;
+    background-repeat: no-repeat;
+    margin-top:40px
+}
+
+.creators{
+  padding-left:20px;
+  background-image: url(../svg/Ellipse\ 124.svg);
+  background-position: 100% 0%;
+  background-repeat: no-repeat;
+}
+
+.team_members{
+  margin-top:40px;
+  display: flex;
+  flex-direction: column;
+  padding-right:20px;
+  position:relative
+}
+
+
+.team_members div:nth-child(4){
+  display:none
+}
+
+.join{
+  padding-top:30px;
+  display:flex;
+  flex-direction: column;
+  padding-left:20px;
+  padding-right:20px
+}
+
+
+
+
+
 
 
 
