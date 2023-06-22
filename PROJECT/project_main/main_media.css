@@ -2,11 +2,12 @@
     .header, .footer{
         width: 395px;
         padding-left: 20px;
-        padding-right:20px
+        padding-right:20px;
+        margin:0
     }
     body{
-        width:100%;
-        overflow:hidden
+        width:395px;
+        
     }
 
     h1{
