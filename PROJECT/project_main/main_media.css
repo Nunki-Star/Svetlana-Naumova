@@ -1,4 +1,4 @@
-@media all and (max-width:1000px){
+@media all and (max-width: 1000px){
     .header, .footer{
         width: 768px;
         padding-left: 50px;
@@ -624,7 +624,7 @@
 
 
     
-    @media all and (max-width:800px){
+    @media all and (max-width: 700px){
     .header, .footer{
         width: 385px;
         padding-left: 20px;
