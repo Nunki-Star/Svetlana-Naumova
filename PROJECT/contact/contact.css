@@ -228,7 +228,8 @@ header div.hamburger-menu{
     color:#7E8492; 
     font-size:13px; 
     padding-left:10px;
-    padding-top:20px
+    padding-top:20px;
+    padding-bottom: 20px;
 }
 
 .fillup form div:nth-child(2){ 
