@@ -1,0 +1,69 @@
+<div class="carousel_self">
+<section class="carousel" aria-label="Gallery">
+    <ol class="carousel__viewport">
+    <li id="carousel__slide1"
+        tabindex="0"
+        class="carousel__slide">
+        <div class="carousel__snapper" style="display:flex">
+            <div>
+                <img src="../svg/Image14.svg" style="margin-top:15px; padding-left:30px" alt="practice making user flow" title="practice making user flow">
+            </div>
+            <div style="padding-left:40px">
+                <p>Published in Insight Jan 30, 2021</p>
+                <h4 style="padding-top:30px">Practice making User Flow</h4>
+                <h5 style="padding-top:45px"> In this article, we'll cover how to <br>
+                create user flows
+                </h5>
+            </div>
+        <a href="#carousel__slide3"
+            class="carousel__prev">Go to last slide</a>
+        <a href="#carousel__slide2"
+            class="carousel__next">Go to next slide</a>
+        </div>
+    </li>
+    <li id="carousel__slide2"
+        tabindex="0"
+        class="carousel__slide">
+        <div class="carousel__snapper" style="display:flex">
+            <div>
+                <img src="../svg/Image15.svg" style="margin-top:15px; padding-left:30px" alt="Overview the design principles" title="Overview the design principles">
+            </div>
+            <div style="padding-left:40px">
+                <p>Published in Insight Jan 30, 2021</p>
+                <h4 style="padding-top:30px">Overview the design <br>
+                    principles</h4>
+                <h5 style="padding-top:45px">
+                    What are Design Principles?… To understand <br>
+                    design principles, we first discuss the principles. 
+                </h5>
+            </div>
+        </div>
+        <a href="#carousel__slide1"
+        class="carousel__prev">Go to previous slide</a>
+        <a href="#carousel__slide3"
+        class="carousel__next">Go to next slide</a>
+    </li>
+    <li id="carousel__slide3"
+        tabindex="0"
+        class="carousel__slide">
+        <div class="carousel__snapper" style="display:flex">
+            <div>
+                <img src="../svg/Rectangle 5651.svg" style="margin-top:15px; padding-left:30px" alt="Using Grid in design" title="Using Grid in design">
+            </div>
+            <div style="padding-left:40px">
+                <p>Published in Insight Jan 30, 2021</p>
+                <h4 style="padding-top:30px">Using Grid in design</h4>
+                <h5 style="padding-top:45px">
+                    What is the grid<br>
+                    looks like?..
+                </h5>
+            </div>
+        </div>
+        <a href="#carousel__slide2"
+        class="carousel__prev">Go to previous slide</a>
+        <a href="#carousel__slide3"
+        class="carousel__next">Go to next slide</a>
+    </li>
+    </ol>
+</section>
+</div>
