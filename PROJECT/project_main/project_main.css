@@ -418,6 +418,7 @@ div img[src*="Line64"]{
 
 .customers_interaction>div:nth-child(2)>div:nth-child(2){
     
+   
     display:flex;
     padding-top:56px
 }
