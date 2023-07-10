@@ -76,8 +76,29 @@ console.log(answerPrompt + 5)
 
 const confirmAnswer = confirm("Are you 18?")
 
-console.log(confirmAnswer)*/
+console.log(confirmAnswer)
 
 const someVariable = "this is what we add"
 
-console.log(`this is how to use interpplation, we use dollar and curly braskets ${someVariable}`)
+console.log(`this is how to use interpplation, we use dollar and curly braskets ${someVariable}`)*/
+
+const numberOfFilms = +prompt("HOW MANY MOVIES HAVE YOU WATCHED?", "")
+
+
+const personalMoviesDB ={
+    count:numberOfFilms, 
+    movies:{},
+    actors:{},
+    genres:[],
+    private:false
+};
+
+const a = prompt("last movie you;ve watched?", ""),
+      b = prompt("value", ""),
+      c = prompt("last movie you;ve watched?", ""),
+      d = prompt("value", "");
+
+personalMoviesDB.movies[a] = b;
+personalMoviesDB.movies[c] = d;
+
+console.log(personalMoviesDB)
